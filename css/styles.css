@@ -152,21 +152,15 @@ ul {
     font-size: 0.9rem;
 }
 
-.turtle-emergency-icon {
-    width: 28px;
-    height: 28px;
-    background: linear-gradient(135deg, var(--color-teal) 0%, #1a5a75 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.turtle-emergency-icon-img {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+    transition: transform 0.3s ease;
 }
 
-.turtle-emergency-icon i {
-    color: #dc3545;
-    font-size: 0.7rem;
-    font-weight: bold;
+.hotline-badge:hover .turtle-emergency-icon-img {
+    transform: scale(1.1);
 }
 
 .hotline-badge a {
@@ -481,8 +475,20 @@ ul {
     flex-shrink: 0;
 }
 
-.turtle-icon {
+.turtle-icon-img {
+    width: 70px;
+    height: 70px;
     filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2));
+    animation: gentle-bob 3s ease-in-out infinite;
+}
+
+@keyframes gentle-bob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
 }
 
 .emergency-text {

@@ -23,17 +23,7 @@ include 'includes/header.php';
         <div class="container">
             <div class="emergency-content">
                 <div class="turtle-rescue-icon">
-                    <svg class="turtle-icon" viewBox="0 0 100 100" width="60" height="60">
-                        <ellipse cx="50" cy="50" rx="30" ry="22" fill="#2d7d9e"/>
-                        <circle cx="50" cy="50" r="18" fill="#052d67"/>
-                        <rect x="44" y="38" width="12" height="24" fill="#dc3545" rx="2"/>
-                        <rect x="38" y="44" width="24" height="12" fill="#dc3545" rx="2"/>
-                        <ellipse cx="25" cy="40" rx="8" ry="5" fill="#2d7d9e"/>
-                        <ellipse cx="75" cy="40" rx="8" ry="5" fill="#2d7d9e"/>
-                        <ellipse cx="25" cy="60" rx="8" ry="5" fill="#2d7d9e"/>
-                        <ellipse cx="75" cy="60" rx="8" ry="5" fill="#2d7d9e"/>
-                        <ellipse cx="50" cy="25" rx="6" ry="8" fill="#2d7d9e"/>
-                    </svg>
+                    <img src="images/turtle-emergency-icon.svg" alt="Sea Turtle Emergency" class="turtle-icon-img">
                 </div>
                 <div class="emergency-text">
                     <p class="emergency-label">Sea Turtle Emergency Hotline</p>

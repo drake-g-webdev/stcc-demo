@@ -12,9 +12,7 @@ $basePath = isset($basePath) ? $basePath : '';
         <div class="container">
             <div class="top-bar-content">
                 <div class="hotline-badge">
-                    <div class="turtle-emergency-icon">
-                        <i class="fas fa-plus"></i>
-                    </div>
+                    <img src="<?php echo $basePath; ?>images/turtle-emergency-icon.svg" alt="Sea Turtle Emergency" class="turtle-emergency-icon-img">
                     <span>Sea Turtle Emergency Hotline: <a href="tel:+59996647970">+5999 664 7970</a></span>
                 </div>
                 <div class="social-links">
