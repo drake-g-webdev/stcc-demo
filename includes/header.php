@@ -40,6 +40,7 @@ $basePath = isset($basePath) ? $basePath : '';
                                 <li><a href="<?php echo $basePath; ?>our-mission.php">Our Mission</a></li>
                                 <li><a href="<?php echo $basePath; ?>committees.php">Committees</a></li>
                                 <li><a href="<?php echo $basePath; ?>our-allies.php">Our Allies</a></li>
+                                <li><a href="<?php echo $basePath; ?>financial-disclosure.php">Financial Disclosure</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown">

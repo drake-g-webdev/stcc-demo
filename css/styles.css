@@ -1195,6 +1195,43 @@ section {
     font-size: 0.9rem;
 }
 
+/* Financial Disclosure Page */
+.disclosure-box {
+    background-color: var(--color-white);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.disclosure-box h2 {
+    margin-bottom: 30px;
+    color: var(--color-dark-blue);
+}
+
+.disclosure-box p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.certification-note {
+    background-color: var(--color-white);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certification-note h3 {
+    color: var(--color-dark-blue);
+    margin-bottom: 15px;
+}
+
 /* Footer */
 .main-footer {
     background-color: var(--color-dark-blue);
