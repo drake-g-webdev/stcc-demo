@@ -20,8 +20,8 @@ $basePath = isset($basePath) ? $basePath : '';
                     <ul>
                         <li><a href="<?php echo $basePath; ?>our-team.php">Our Team</a></li>
                         <li><a href="<?php echo $basePath; ?>our-mission.php">Our Mission</a></li>
-                        <li><a href="<?php echo $basePath; ?>committees.php">Committees</a></li>
                         <li><a href="<?php echo $basePath; ?>our-allies.php">Our Allies</a></li>
+                        <li><a href="<?php echo $basePath; ?>committees.php">Committees</a></li>
                         <li><a href="<?php echo $basePath; ?>financial-disclosure.php">Financial Disclosure</a></li>
                     </ul>
                 </div>
