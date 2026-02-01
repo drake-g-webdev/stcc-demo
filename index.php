@@ -148,38 +148,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="team-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Meet Our Team</h2>
-                <p>The dedicated people behind Sea Turtle Conservation Curaçao</p>
-            </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="images/team/placeholder.svg" alt="Patricia DeHart - Chairwoman of the Board">
-                    </div>
-                    <div class="team-content">
-                        <h3>Patricia DeHart</h3>
-                        <span class="team-role">Chairwoman of the Board</span>
-                        <p>Leading Sea Turtle Conservation Curaçao with dedication and vision, Patricia provides strategic direction to ensure our organization continues to protect and preserve the sea turtles that call Curaçao's waters home.</p>
-                    </div>
-                </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="images/team/ard.jpg" alt="Ard - Field Coordinator">
-                    </div>
-                    <div class="team-content">
-                        <h3>Ard</h3>
-                        <span class="team-role">Field Coordinator</span>
-                        <p>Born in the Netherlands and grew up in Curaçao. A lecturer in social studies with 8 years of conservation experience across multiple countries. Oversees daily operations, turtle rehabilitation care, volunteer coaching, and in-water rescue operations. Philosophy: "Let's explore together and make connections, curiosity is key!"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Donation Section -->
     <section class="donation-section">
         <div class="container">
@@ -222,55 +190,28 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact-section">
+    <!-- Contact & Support Section -->
+    <section class="contact-support-section">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h2>Contact Us</h2>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:info@curacaoturtles.org">info@curacaoturtles.org</a>
-                        </div>
+            <div class="contact-support-grid">
+                <div class="contact-info-box">
+                    <h2>Contact</h2>
+                    <div class="contact-details">
+                        <p><a href="mailto:info@curacaoturtles.org">info@curacaoturtles.org</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+59996647970">+5999 664 7970</a></p>
+                        <p><strong>Visitor Center:</strong><br>STCC at Sambil Mall (Carrefour entrance)</p>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+59996647970">+5999 664 7970</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>STCC at Sambil Mall (Carrefour entrance)<br>Curaçao</p>
-                        </div>
+                    <div class="emergency-contact-box">
+                        <p><strong>If you see a sea turtle or nest in danger, call or WhatsApp:</strong></p>
+                        <p>Ard: <a href="tel:+59996647970">+5999 664 7970</a></p>
                     </div>
                 </div>
-                <div class="contact-info field-coordinator">
-                    <h3>Field Coordinator</h3>
-                    <p class="coordinator-name">Ard</p>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <a href="tel:+59996447970">+5999 644 7970</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <a href="mailto:ard.d.vreugdenhil@gmail.com">ard.d.vreugdenhil@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-instagram"></i>
-                        <div>
-                            <a href="https://instagram.com/Ardvreugdenhil" target="_blank">@Ardvreugdenhil</a>
-                        </div>
-                    </div>
+                <div class="support-info-box">
+                    <h2>Sea Turtles <i class="fas fa-heart" style="color: var(--color-teal);"></i> Your Support</h2>
+                    <p>STCC's purpose is to keep the sea turtles of Curaçao safe and healthy.</p>
+                    <p>This organization is powered by volunteers – from daily tasks & beach patrols, to nest monitoring and rescue response, volunteers are involved in it all.</p>
+                    <p>Relying on volunteers helps keep our costs low, but research, transportation, equipment, medical and vet expenses, maintaining a constant staff, and so much more requires funding. As a non-profit organization, we depend on support from individual donors and sponsors.</p>
+                    <a href="donate.php" class="btn btn-primary">Take Action</a>
                 </div>
             </div>
         </div>
