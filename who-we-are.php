@@ -83,16 +83,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Affiliation Section -->
-    <section class="content-section">
-        <div class="container">
-            <div class="affiliation-box">
-                <h3>Our Network</h3>
-                <p>STCC is a proud member of the Wider Caribbean Sea Turtle Conservation Network (WIDECAST), connecting us with conservation efforts across the Caribbean region.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">

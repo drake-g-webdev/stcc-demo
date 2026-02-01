@@ -48,22 +48,18 @@ include 'includes/header.php';
             </div>
             <div class="impact-grid">
                 <div class="impact-card">
-                    <i class="fas fa-eye"></i>
                     <h3>Vision Impairment</h3>
                     <p>Tumors around the eyes can partially or completely block vision, making it difficult for turtles to find food and avoid predators.</p>
                 </div>
                 <div class="impact-card">
-                    <i class="fas fa-swimmer"></i>
                     <h3>Swimming Difficulties</h3>
                     <p>Large tumors on flippers or body can affect buoyancy and mobility, making it harder for turtles to swim and dive.</p>
                 </div>
                 <div class="impact-card">
-                    <i class="fas fa-utensils"></i>
                     <h3>Feeding Problems</h3>
                     <p>Tumors around the mouth or internally can make eating difficult, leading to malnutrition and weakness.</p>
                 </div>
                 <div class="impact-card">
-                    <i class="fas fa-lungs"></i>
                     <h3>Internal Organ Damage</h3>
                     <p>Internal tumors can affect vital organs including the lungs, kidneys, and heart, leading to organ failure.</p>
                 </div>

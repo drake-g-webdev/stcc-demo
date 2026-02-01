@@ -22,20 +22,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Networks Section -->
-    <section class="content-section bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2>Conservation Networks</h2>
-                <p>We're connected with organizations across the Caribbean and beyond</p>
-            </div>
-            <div class="partner-highlight">
-                <h3>WIDECAST</h3>
-                <p>STCC is a member of the Wider Caribbean Sea Turtle Conservation Network (WIDECAST), a regional network of sea turtle researchers, conservationists, and resource managers. Through WIDECAST, we collaborate with partners across the Caribbean to share knowledge, coordinate conservation efforts, and contribute to regional sea turtle protection strategies.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Certification Section -->
     <section class="content-section">
         <div class="container">

@@ -59,16 +59,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Network -->
-    <section class="content-section">
-        <div class="container">
-            <div class="network-box">
-                <h2>Research Network</h2>
-                <p>As a member of WIDECAST (Wider Caribbean Sea Turtle Conservation Network), we collaborate with researchers across the Caribbean and contribute to regional databases and publications. Our data helps inform conservation policy throughout the region.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA -->
     <section class="cta-section">
         <div class="container">
