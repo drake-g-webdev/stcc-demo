@@ -65,7 +65,7 @@ include 'includes/header.php';
                 </div>
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="images/team/ard.jpg" alt="Ard - Field Coordinator">
+                        <img src="images/team/ard2.jpg" alt="Ard - Field Coordinator">
                     </div>
                     <div class="team-content">
                         <h3>Ard Vreugdenhil</h3>

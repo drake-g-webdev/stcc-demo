@@ -22,7 +22,7 @@ include 'includes/header.php';
             <div class="staff-grid">
                 <div class="staff-card">
                     <div class="staff-image">
-                        <img src="images/team/ard.jpg" alt="Ard Vreugdenhil">
+                        <img src="images/team/ard2.jpg" alt="Ard Vreugdenhil">
                     </div>
                     <div class="staff-content">
                         <h3>Ard Vreugdenhil</h3>
