@@ -27,12 +27,12 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Current Interns Gallery -->
+    <!-- Intern Activities Gallery -->
     <section class="content-section bg-light">
         <div class="container">
             <div class="section-header">
-                <h2>Our Current Interns</h2>
-                <p>Meet the dedicated students gaining hands-on experience with STCC</p>
+                <h2>What Our Interns Do</h2>
+                <p>Hands-on conservation work in the field and beyond</p>
             </div>
             <div class="intern-gallery">
                 <div class="intern-gallery-item">
