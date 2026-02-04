@@ -126,6 +126,33 @@ ul {
     color: var(--color-white);
 }
 
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-login {
+    background: transparent;
+    color: var(--color-dark-blue);
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.btn-login i {
+    margin-right: 5px;
+    font-size: 0.8rem;
+}
+
+.btn-login:hover {
+    background: #f5f5f5;
+    color: var(--color-teal);
+    border-color: var(--color-teal);
+}
+
 .btn-large {
     padding: 16px 40px;
     font-size: 1.1rem;
@@ -2182,7 +2209,7 @@ section {
         display: flex;
     }
 
-    .header-content .btn-donate {
+    .header-buttons {
         display: none;
     }
 

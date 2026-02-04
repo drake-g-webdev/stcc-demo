@@ -59,7 +59,6 @@ $basePath = isset($basePath) ? $basePath : '';
                                 <li><a href="<?php echo $basePath; ?>events.php">Events</a></li>
                                 <li><a href="<?php echo $basePath; ?>patrol-klein-curacao.php">Patrol Klein Curaçao</a></li>
                                 <li><a href="<?php echo $basePath; ?>vacancies.php">Vacancies</a></li>
-                                <li><a href="<?php echo $basePath; ?>volunteer-login.php"><i class="fas fa-lock"></i> Volunteer Login</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown">
@@ -72,7 +71,10 @@ $basePath = isset($basePath) ? $basePath : '';
                         <li><a href="<?php echo $basePath; ?>news.php">News</a></li>
                     </ul>
                 </nav>
-                <a href="<?php echo $basePath; ?>donate.php" class="btn btn-donate">Donate</a>
+                <div class="header-buttons">
+                    <a href="<?php echo $basePath; ?>volunteer-login.php" class="btn btn-login"><i class="fas fa-user"></i> Login</a>
+                    <a href="<?php echo $basePath; ?>donate.php" class="btn btn-donate">Donate</a>
+                </div>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
                     <span></span>
                     <span></span>
