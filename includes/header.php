@@ -72,8 +72,8 @@ $basePath = isset($basePath) ? $basePath : '';
                     </ul>
                 </nav>
                 <div class="header-buttons">
-                    <a href="<?php echo $basePath; ?>volunteer-login.php" class="btn btn-login"><i class="fas fa-user"></i> Login</a>
                     <a href="<?php echo $basePath; ?>donate.php" class="btn btn-donate">Donate</a>
+                    <a href="<?php echo $basePath; ?>volunteer-login.php" class="btn btn-login"><i class="fas fa-user"></i> Volunteer Portal</a>
                 </div>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
                     <span></span>

@@ -1,9 +1,5 @@
 <?php
-$pageTitle = 'Volunteer Login';
-include 'includes/head.php';
-include 'includes/header.php';
-
-// Demo credentials
+// Process login BEFORE any HTML output
 $demoUsername = 'volunteer';
 $demoPassword = 'stcc2025';
 $error = '';
@@ -20,6 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Invalid username or password. Try the demo credentials below.';
     }
 }
+
+$pageTitle = 'Volunteer Login';
+include 'includes/head.php';
+include 'includes/header.php';
 ?>
 
     <!-- Page Header -->
