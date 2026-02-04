@@ -1657,6 +1657,20 @@ section {
     font-weight: 600;
 }
 
+.demo-number {
+    color: #999;
+    font-family: monospace;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.demo-note {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 10px;
+}
+
 /* Guidelines Grid */
 .guidelines-grid {
     display: grid;

@@ -50,11 +50,12 @@ include 'includes/header.php';
                     <div class="contact-group">
                         <h3>STCC Staff</h3>
                         <ul>
-                            <li><strong>Ard Vreugdenhil:</strong> <a href="tel:+59996447970">644 7970</a></li>
-                            <li><strong>Ingo van Veghel:</strong> <a href="tel:+59996654330">665 4330</a></li>
-                            <li><strong>Marianne Kros</strong> (Banda Abou only): <a href="tel:+59995195051">519 5051</a></li>
-                            <li><strong>Natalia Moron:</strong> <a href="tel:+59995221661">522-1661</a></li>
+                            <li><strong>Field Coordinator:</strong> <span class="demo-number">XXX-XXXX</span></li>
+                            <li><strong>Field Assistant:</strong> <span class="demo-number">XXX-XXXX</span></li>
+                            <li><strong>Banda Abou Contact:</strong> <span class="demo-number">XXX-XXXX</span></li>
+                            <li><strong>Board Contact:</strong> <span class="demo-number">XXX-XXXX</span></li>
                         </ul>
+                        <p class="demo-note"><em>* Real contact numbers provided to registered volunteers</em></p>
                     </div>
                     <div class="contact-group">
                         <h3>Emergency Services</h3>
@@ -68,9 +69,10 @@ include 'includes/header.php';
                     <div class="contact-group">
                         <h3>Other Numbers</h3>
                         <ul>
-                            <li><strong>Rampenbestrijding:</strong> <a href="tel:+59994629111">462 9111</a></li>
-                            <li><strong>Odette Doest:</strong> <a href="tel:+59995661775">566 1775</a></li>
+                            <li><strong>Disaster Management:</strong> <span class="demo-number">XXX-XXXX</span></li>
+                            <li><strong>Wildlife Rescue:</strong> <span class="demo-number">XXX-XXXX</span></li>
                         </ul>
+                        <p class="demo-note"><em>* Real contact numbers provided to registered volunteers</em></p>
                     </div>
                 </div>
             </div>
