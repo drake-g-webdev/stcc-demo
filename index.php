@@ -9,20 +9,11 @@ include 'includes/header.php';
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="container">
-                <div class="hero-logo">
-                    <img src="images/logo-stcc-white-transparent.png" alt="Sea Turtle Conservation Curaçao">
+                <div class="hero-text">
+                    <h1>Protecting Sea Turtles and their Habitat through Research, Conservation & Education</h1>
+                    <p class="hero-description">We are a non-profit organization based on the island of Curaçao that protects sea turtles and marine wildlife by taking direct action. We focus on rescue, rehabilitation, and research activities as well as awareness creation.</p>
+                    <a href="donate.php" class="btn btn-primary btn-large">Take Action</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mission Statement -->
-    <section class="mission-statement">
-        <div class="container">
-            <div class="mission-content">
-                <h2>Protecting Sea Turtles and their Habitat through Research, Conservation & Education</h2>
-                <p>We are a non-profit organization based on the island of Curaçao that protects sea turtles and marine wildlife by taking direct action. We focus on rescue, rehabilitation, and research activities as well as awareness creation.</p>
-                <a href="donate.php" class="btn btn-primary btn-large">Take Action</a>
             </div>
         </div>
     </section>
