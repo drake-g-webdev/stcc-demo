@@ -1,4 +1,19 @@
 <?php
+session_start();
+
+// Handle logout
+if (isset($_GET['action']) && $_GET['action'] === 'logout') {
+    session_destroy();
+    header('Location: volunteer-login.php');
+    exit;
+}
+
+// If already logged in, redirect to portal
+if (isset($_SESSION['volunteer_authenticated']) && $_SESSION['volunteer_authenticated'] === true) {
+    header('Location: volunteer-portal.php');
+    exit;
+}
+
 // Process login BEFORE any HTML output
 $demoUsername = 'volunteer';
 $demoPassword = 'stcc2025';
@@ -9,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'] ?? '';
 
     if ($username === $demoUsername && $password === $demoPassword) {
-        // Redirect to portal
+        $_SESSION['volunteer_authenticated'] = true;
         header('Location: volunteer-portal.php');
         exit;
     } else {

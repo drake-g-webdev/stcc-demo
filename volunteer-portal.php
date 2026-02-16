@@ -1,4 +1,12 @@
 <?php
+session_start();
+
+// Auth gate: redirect to login if not authenticated
+if (!isset($_SESSION['volunteer_authenticated']) || $_SESSION['volunteer_authenticated'] !== true) {
+    header('Location: volunteer-login.php');
+    exit;
+}
+
 $pageTitle = 'Volunteer Portal';
 include 'includes/head.php';
 include 'includes/header.php';
@@ -12,7 +20,7 @@ include 'includes/header.php';
                     <h1>Welcome to the Volunteer Portal</h1>
                     <p>Hello, Volunteer! Access your resources and documentation below.</p>
                 </div>
-                <a href="volunteer-login.php" class="btn btn-outline-white"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                <a href="volunteer-login.php?action=logout" class="btn btn-outline-white"><i class="fas fa-sign-out-alt"></i> Logout</a>
             </div>
         </div>
     </section>
