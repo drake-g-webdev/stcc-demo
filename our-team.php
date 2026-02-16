@@ -89,12 +89,12 @@ include 'includes/header.php';
             <div class="board-grid-expanded">
                 <div class="board-card-expanded">
                     <div class="board-image">
-                        <img src="images/team/placeholder.svg" alt="Patricia DeHart">
+                        <img src="images/team/Patricia.jpg" alt="Patricia de Hart">
                     </div>
                     <div class="board-content">
-                        <h3>Patricia DeHart</h3>
+                        <h3>Patricia de Hart</h3>
                         <span class="board-role">Chairwoman of the Board</span>
-                        <p class="board-bio">Bio coming soon.</p>
+                        <p class="board-bio">Patricia is a Tax Lawyer, originally from Barranquilla, Colombia. She has lived in several cities around the world and, after living in Buenos Aires for more than 20 years, together with her husband Gabriel, transferred to Curaçao where they have lived and enjoyed enormously for almost five years. Her professional experience working out of many countries for multinational entities in different sectors, understanding varied upbringings, while leading teams with diverse backgrounds in both cultures and education, has allowed her to provide strategy, planning and a sense of fulfillment into the work and vision of the companies she has worked with. She recently joined STCC as Chair of the Board of Directors, a distinct honor, as creating awareness and focusing on the well-being of turtles is totally aligned with her sense of what being part of a community means.</p>
                     </div>
                 </div>
                 <div class="board-card-expanded">
