@@ -81,7 +81,7 @@ include 'includes/header.php';
                     <h2>About Sea Turtle Conservation Curaçao</h2>
                     <p>Sea Turtle Conservation Curaçao (STCC) is a dedicated non-profit organization working tirelessly to protect the sea turtles that call the waters around Curaçao home.</p>
                     <p>Our team of passionate volunteers and experts work together to rescue injured turtles, conduct vital research, and spread awareness about the importance of marine conservation.</p>
-                    <a href="who-we-are.php" class="btn btn-primary">Learn More About Us</a>
+                    <a href="our-mission.php" class="btn btn-primary">Learn More About Us</a>
                 </div>
             </div>
         </div>
