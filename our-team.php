@@ -114,17 +114,17 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Susan Wong</h3>
                         <span class="board-role">Treasurer</span>
-                        <p class="board-bio">Bio coming soon.</p>
+                        <p class="board-bio">Susan recently started volunteering for STCC. She loves hiking and being creative. Susan has worked at the Central Bank of Curaçao and Sint Maarten for over 25 years.</p>
                     </div>
                 </div>
                 <div class="board-card-expanded">
                     <div class="board-image">
-                        <img src="images/team/placeholder.svg" alt="Natalia Moron">
+                        <img src="images/team/placeholder.svg" alt="Natalia Morón">
                     </div>
                     <div class="board-content">
-                        <h3>Natalia Moron</h3>
-                        <span class="board-role">Board Member</span>
-                        <p class="board-bio">Bio coming soon.</p>
+                        <h3>Natalia Morón</h3>
+                        <span class="board-role">General Member</span>
+                        <p class="board-bio">Natalia is a wife and mother of 3 who loves photography and nature. She joined STCC last year, has been active ever since and is very enthusiastic about making a difference in helping our sea turtles.</p>
                     </div>
                 </div>
                 <div class="board-card-expanded">
