@@ -3770,11 +3770,65 @@ section {
     margin-bottom: 15px;
 }
 
+.board-bio-wrapper {
+    max-height: 65px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.4s ease;
+}
+
+.board-bio-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(transparent, var(--color-white));
+    transition: opacity 0.3s ease;
+}
+
+.board-card-expanded.expanded .board-bio-wrapper {
+    max-height: 500px;
+}
+
+.board-card-expanded.expanded .board-bio-wrapper::after {
+    opacity: 0;
+}
+
 .board-card-expanded .board-bio {
     color: var(--color-gray);
     font-size: 0.9rem;
     line-height: 1.7;
     margin: 0;
+}
+
+.board-read-more {
+    background: none;
+    border: none;
+    color: var(--color-teal);
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 8px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s ease;
+    margin-top: auto;
+}
+
+.board-read-more:hover {
+    color: var(--color-dark-blue);
+}
+
+.board-read-more i {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.board-card-expanded.expanded .board-read-more i {
+    transform: rotate(180deg);
 }
 
 @media (max-width: 1024px) {

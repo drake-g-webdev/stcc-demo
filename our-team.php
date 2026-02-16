@@ -94,7 +94,10 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Patricia de Hart</h3>
                         <span class="board-role">Chairwoman of the Board</span>
-                        <p class="board-bio">Patricia is a Tax Lawyer, originally from Barranquilla, Colombia. She has lived in several cities around the world and, after living in Buenos Aires for more than 20 years, together with her husband Gabriel, transferred to Curaçao where they have lived and enjoyed enormously for almost five years. Her professional experience working out of many countries for multinational entities in different sectors, understanding varied upbringings, while leading teams with diverse backgrounds in both cultures and education, has allowed her to provide strategy, planning and a sense of fulfillment into the work and vision of the companies she has worked with. She recently joined STCC as Chair of the Board of Directors, a distinct honor, as creating awareness and focusing on the well-being of turtles is totally aligned with her sense of what being part of a community means.</p>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Patricia is a Tax Lawyer, originally from Barranquilla, Colombia. She has lived in several cities around the world and, after living in Buenos Aires for more than 20 years, together with her husband Gabriel, transferred to Curaçao where they have lived and enjoyed enormously for almost five years. Her professional experience working out of many countries for multinational entities in different sectors, understanding varied upbringings, while leading teams with diverse backgrounds in both cultures and education, has allowed her to provide strategy, planning and a sense of fulfillment into the work and vision of the companies she has worked with. She recently joined STCC as Chair of the Board of Directors, a distinct honor, as creating awareness and focusing on the well-being of turtles is totally aligned with her sense of what being part of a community means.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
                 <div class="board-card-expanded">
@@ -104,7 +107,10 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Terri Birnbaum</h3>
                         <span class="board-role">Secretary</span>
-                        <p class="board-bio">Terri has lived on Curaçao since January 2024. Prior to retiring, she was a Program Manager with the US government for 33 years, primarily working on satellite projects. Her previous volunteer work includes Girl Scouts of America and several roles with her church. She serves on the Data Committee and performs weekly beach patrols on Klein Curaçao.</p>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Terri has lived on Curaçao since January 2024. Prior to retiring, she was a Program Manager with the US government for 33 years, primarily working on satellite projects. Her previous volunteer work includes Girl Scouts of America and several roles with her church. She serves on the Data Committee and performs weekly beach patrols on Klein Curaçao.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
                 <div class="board-card-expanded">
@@ -114,7 +120,10 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Susan Wong</h3>
                         <span class="board-role">Treasurer</span>
-                        <p class="board-bio">Susan recently started volunteering for STCC. She loves hiking and being creative. Susan has worked at the Central Bank of Curaçao and Sint Maarten for over 25 years.</p>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Susan recently started volunteering for STCC. She loves hiking and being creative. Susan has worked at the Central Bank of Curaçao and Sint Maarten for over 25 years.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
                 <div class="board-card-expanded">
@@ -124,7 +133,10 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Natalia Morón</h3>
                         <span class="board-role">General Member</span>
-                        <p class="board-bio">Natalia is a wife and mother of 3 who loves photography and nature. She joined STCC last year, has been active ever since and is very enthusiastic about making a difference in helping our sea turtles.</p>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Natalia is a wife and mother of 3 who loves photography and nature. She joined STCC last year, has been active ever since and is very enthusiastic about making a difference in helping our sea turtles.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
                 <div class="board-card-expanded">
@@ -134,7 +146,10 @@ include 'includes/header.php';
                     <div class="board-content">
                         <h3>Stephanie Gooding</h3>
                         <span class="board-role">Board Member</span>
-                        <p class="board-bio">Stephanie has lived on Curaçao since March of 2023. She was a science teacher for 20 years, and school administrator for over 5 years. Stephanie discovered her passion for sea turtles many years ago while volunteering on Pritchards Island, SC (USA) during Loggerhead Sea Turtle nesting season. She also serves on the Education and Social Media Committees, and is very active in the field.</p>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Stephanie has lived on Curaçao since March of 2023. She was a science teacher for 20 years, and school administrator for over 5 years. Stephanie discovered her passion for sea turtles many years ago while volunteering on Pritchards Island, SC (USA) during Loggerhead Sea Turtle nesting season. She also serves on the Education and Social Media Committees, and is very active in the field.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
             </div>

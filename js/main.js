@@ -148,4 +148,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', animateOnScroll);
     animateOnScroll(); // Run on page load
+
+    // Board Card Read More Toggle
+    document.querySelectorAll('.board-read-more').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var card = this.closest('.board-card-expanded');
+            var isExpanded = card.classList.contains('expanded');
+            card.classList.toggle('expanded');
+            this.innerHTML = isExpanded
+                ? 'Read More <i class="fas fa-chevron-down"></i>'
+                : 'Read Less <i class="fas fa-chevron-down"></i>';
+        });
+    });
 });
