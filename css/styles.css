@@ -122,11 +122,16 @@ ul {
 .btn-donate {
     background-color: var(--color-orange);
     color: var(--color-white);
+    animation: pulse 4s ease-in-out infinite;
+    transition: all 0.3s ease;
 }
 
 .btn-donate:hover {
     background-color: #e67800;
     color: var(--color-white);
+    animation: none;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(45, 125, 158, 0.4);
 }
 
 /* Header Buttons Container */
@@ -408,17 +413,7 @@ ul {
     transform: scaleY(1);
 }
 
-/* Donate Button Animation */
-.btn-donate {
-    animation: pulse 4s ease-in-out infinite;
-    transition: all 0.3s ease;
-}
 
-.btn-donate:hover {
-    animation: none;
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(45, 125, 158, 0.4);
-}
 
 /* Mobile Menu Toggle */
 .mobile-menu-toggle {
@@ -1894,7 +1889,7 @@ section {
 
 .activity-card {
     background: var(--color-white);
-    padding: 25px;
+    padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     text-align: center;
@@ -2679,14 +2674,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-}
-
-.activity-card {
-    background-color: var(--color-white);
-    padding: 30px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: var(--shadow);
 }
 
 .activity-card i {
