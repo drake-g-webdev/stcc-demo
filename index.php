@@ -88,6 +88,11 @@ include 'includes/header.php';
     </section>
 
     <!-- Latest News Section -->
+    <?php
+    $newsJson = file_get_contents('data/news.json');
+    $newsArticles = json_decode($newsJson, true);
+    $latestNews = array_slice($newsArticles, 0, 3);
+    ?>
     <section class="news-section">
         <div class="container">
             <div class="section-header">
@@ -95,42 +100,22 @@ include 'includes/header.php';
                 <p>Stay updated with our latest conservation efforts and stories</p>
             </div>
             <div class="news-grid">
+                <?php foreach ($latestNews as $news):
+                    $newsDate = new DateTime($news['date']);
+                ?>
                 <article class="news-card">
-                    <a href="news/unoc-conference.php" class="news-image">
-                        <img src="images/news/unoc-conference.jpg" alt="STCC at UN Ocean Conference">
-                        <span class="news-category">News</span>
+                    <a href="news/article.php?slug=<?php echo urlencode($news['slug']); ?>" class="news-image">
+                        <img src="<?php echo htmlspecialchars($news['image']); ?>" alt="<?php echo htmlspecialchars($news['title']); ?>">
+                        <span class="news-category"><?php echo htmlspecialchars($news['category']); ?></span>
                     </a>
                     <div class="news-content">
-                        <span class="news-date">June 12, 2025</span>
-                        <h3><a href="news/unoc-conference.php">STCC at the third United Nations Ocean Conference</a></h3>
-                        <p>Sea Turtle Conservation Curaçao participated in the third United Nations Ocean Conference, sharing our conservation efforts on the global stage.</p>
-                        <a href="news/unoc-conference.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <span class="news-date"><?php echo $newsDate->format('F j, Y'); ?></span>
+                        <h3><a href="news/article.php?slug=<?php echo urlencode($news['slug']); ?>"><?php echo htmlspecialchars($news['title']); ?></a></h3>
+                        <p><?php echo htmlspecialchars($news['summary']); ?></p>
+                        <a href="news/article.php?slug=<?php echo urlencode($news['slug']); ?>" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
-                <article class="news-card">
-                    <a href="news/educational-video.php" class="news-image">
-                        <img src="images/news/educational-video.jpg" alt="Educational video about Green sea turtles">
-                        <span class="news-category">Education</span>
-                    </a>
-                    <div class="news-content">
-                        <span class="news-date">August 6, 2024</span>
-                        <h3><a href="news/educational-video.php">Educational video about Green sea turtles</a></h3>
-                        <p>We're excited to share our new educational video about Green sea turtles, designed to help people learn about these amazing creatures.</p>
-                        <a href="news/educational-video.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <article class="news-card">
-                    <a href="news/hatchling-release.php" class="news-image">
-                        <img src="images/news/hatchling-release.jpg" alt="Release hatchling at Blue Bay">
-                        <span class="news-category">Nest</span>
-                    </a>
-                    <div class="news-content">
-                        <span class="news-date">July 4, 2024</span>
-                        <h3><a href="news/hatchling-release.php">Release hatchling at Blue Bay</a></h3>
-                        <p>A wonderful moment as we released hatchlings at Blue Bay. These tiny turtles are now on their journey in the ocean.</p>
-                        <a href="news/hatchling-release.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
+                <?php endforeach; ?>
             </div>
             <div class="news-cta">
                 <a href="news.php" class="btn btn-outline">View All News</a>

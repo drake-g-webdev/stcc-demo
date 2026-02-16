@@ -2,6 +2,10 @@
 $pageTitle = 'News';
 include 'includes/head.php';
 include 'includes/header.php';
+
+// Read news data from JSON
+$jsonData = file_get_contents('data/news.json');
+$articles = json_decode($jsonData, true);
 ?>
 
     <!-- Page Header -->
@@ -16,42 +20,23 @@ include 'includes/header.php';
     <section class="news-page-section">
         <div class="container">
             <div class="news-grid-full">
+                <?php foreach ($articles as $article):
+                    $dateObj = new DateTime($article['date']);
+                    $formattedDate = $dateObj->format('F j, Y');
+                ?>
                 <article class="news-card">
-                    <a href="news/unoc-conference.php" class="news-image">
-                        <img src="images/news/unoc-conference.jpg" alt="STCC at UN Ocean Conference">
-                        <span class="news-category">News</span>
+                    <a href="news/article.php?slug=<?php echo urlencode($article['slug']); ?>" class="news-image">
+                        <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="<?php echo htmlspecialchars($article['title']); ?>">
+                        <span class="news-category"><?php echo htmlspecialchars($article['category']); ?></span>
                     </a>
                     <div class="news-content">
-                        <span class="news-date">June 12, 2025</span>
-                        <h3><a href="news/unoc-conference.php">STCC at the third United Nations Ocean Conference</a></h3>
-                        <p>Sea Turtle Conservation Curaçao participated in the third United Nations Ocean Conference, sharing our conservation efforts and connecting with global partners working to protect our oceans.</p>
-                        <a href="news/unoc-conference.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <span class="news-date"><?php echo $formattedDate; ?></span>
+                        <h3><a href="news/article.php?slug=<?php echo urlencode($article['slug']); ?>"><?php echo htmlspecialchars($article['title']); ?></a></h3>
+                        <p><?php echo htmlspecialchars($article['summary']); ?></p>
+                        <a href="news/article.php?slug=<?php echo urlencode($article['slug']); ?>" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </article>
-                <article class="news-card">
-                    <a href="news/educational-video.php" class="news-image">
-                        <img src="images/news/educational-video.jpg" alt="Educational video about Green sea turtles">
-                        <span class="news-category">Education</span>
-                    </a>
-                    <div class="news-content">
-                        <span class="news-date">August 6, 2024</span>
-                        <h3><a href="news/educational-video.php">Educational video about Green sea turtles</a></h3>
-                        <p>We're excited to share our new educational video about Green sea turtles! This video is designed to help people of all ages learn about these amazing creatures and the importance of protecting them.</p>
-                        <a href="news/educational-video.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <article class="news-card">
-                    <a href="news/hatchling-release.php" class="news-image">
-                        <img src="images/news/hatchling-release.jpg" alt="Release hatchling at Blue Bay">
-                        <span class="news-category">Nest</span>
-                    </a>
-                    <div class="news-content">
-                        <span class="news-date">July 4, 2024</span>
-                        <h3><a href="news/hatchling-release.php">Release hatchling at Blue Bay</a></h3>
-                        <p>A wonderful moment as we released hatchlings at Blue Bay! These tiny turtles have begun their incredible journey into the ocean, where they will hopefully grow and one day return to nest.</p>
-                        <a href="news/hatchling-release.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
