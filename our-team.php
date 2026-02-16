@@ -128,7 +128,7 @@ include 'includes/header.php';
                 </div>
                 <div class="board-card-expanded">
                     <div class="board-image">
-                        <img src="images/team/placeholder.svg" alt="Natalia Morón">
+                        <img src="images/team/Natalia.jpg" alt="Natalia Morón">
                     </div>
                     <div class="board-content">
                         <h3>Natalia Morón</h3>
