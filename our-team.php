@@ -99,12 +99,12 @@ include 'includes/header.php';
                 </div>
                 <div class="board-card-expanded">
                     <div class="board-image">
-                        <img src="images/team/placeholder.svg" alt="Teresa Birnbaum">
+                        <img src="images/team/terri.jpg" alt="Terri Birnbaum">
                     </div>
                     <div class="board-content">
-                        <h3>Teresa Birnbaum</h3>
+                        <h3>Terri Birnbaum</h3>
                         <span class="board-role">Secretary</span>
-                        <p class="board-bio">Bio coming soon.</p>
+                        <p class="board-bio">Terri has lived on Curaçao since January 2024. Prior to retiring, she was a Program Manager with the US government for 33 years, primarily working on satellite projects. Her previous volunteer work includes Girl Scouts of America and several roles with her church. She serves on the Data Committee and performs weekly beach patrols on Klein Curaçao.</p>
                     </div>
                 </div>
                 <div class="board-card-expanded">
