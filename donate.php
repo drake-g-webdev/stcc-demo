@@ -38,36 +38,28 @@ include 'includes/header.php';
 
                 <div class="donate-form-wrapper">
                     <div class="donation-form-container">
-                        <form class="donation-form">
-                            <h3>Select Donation Amount</h3>
-                            <div class="donation-amounts">
-                                <label class="amount-option">
-                                    <input type="radio" name="amount" value="25">
-                                    <span>$25</span>
-                                </label>
-                                <label class="amount-option">
-                                    <input type="radio" name="amount" value="50" checked>
-                                    <span>$50</span>
-                                </label>
-                                <label class="amount-option">
-                                    <input type="radio" name="amount" value="75">
-                                    <span>$75</span>
-                                </label>
-                                <label class="amount-option">
-                                    <input type="radio" name="amount" value="100">
-                                    <span>$100</span>
-                                </label>
+                        <h3>Choose a Donation Method</h3>
+                        <div class="donate-platforms">
+                            <a href="https://www.globalgiving.org/projects/help-protect-endangered-sea-turtles-in-curacao/" target="_blank" class="donate-platform-btn globalgiving">
+                                <i class="fas fa-globe"></i>
+                                <span class="platform-name">GlobalGiving</span>
+                                <span class="platform-desc">Donate via credit card or PayPal</span>
+                            </a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=GDLGZHCXGB2UL" target="_blank" class="donate-platform-btn paypal">
+                                <i class="fab fa-paypal"></i>
+                                <span class="platform-name">PayPal</span>
+                                <span class="platform-desc">Fast and secure payment</span>
+                            </a>
+                        </div>
+                        <div class="donate-bank-transfer">
+                            <h4><i class="fas fa-university"></i> Bank Transfer (ANG)</h4>
+                            <p>For donations in Antillean Guilders:</p>
+                            <div class="bank-details">
+                                <p><strong>Stichting Friends of Sea Turtle Conservation Curaçao</strong></p>
+                                <p>MCB Bank — Account: 30128106</p>
                             </div>
-                            <div class="custom-amount-field">
-                                <label for="custom-amount">Or enter a custom amount:</label>
-                                <div class="input-group">
-                                    <span class="currency">$</span>
-                                    <input type="number" id="custom-amount" placeholder="Enter amount" min="10">
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-donate btn-large">Donate Now</button>
-                            <p class="secure-note"><i class="fas fa-lock"></i> Secure payment processing</p>
-                        </form>
+                        </div>
+                        <p class="secure-note"><i class="fas fa-lock"></i> All donations are securely processed by trusted platforms</p>
                     </div>
                 </div>
             </div>

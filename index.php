@@ -135,31 +135,20 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="donation-form-container">
-                    <form class="donation-form">
-                        <h3>Make a Donation</h3>
-                        <div class="donation-amounts">
-                            <label class="amount-option">
-                                <input type="radio" name="amount" value="25">
-                                <span>$25</span>
-                            </label>
-                            <label class="amount-option">
-                                <input type="radio" name="amount" value="50" checked>
-                                <span>$50</span>
-                            </label>
-                            <label class="amount-option">
-                                <input type="radio" name="amount" value="75">
-                                <span>$75</span>
-                            </label>
-                            <label class="amount-option custom">
-                                <input type="radio" name="amount" value="custom">
-                                <span>Other</span>
-                            </label>
-                        </div>
-                        <div class="custom-amount" style="display: none;">
-                            <input type="number" placeholder="Enter amount" min="1">
-                        </div>
-                        <a href="donate.php" class="btn btn-donate btn-large">Donate Now</a>
-                    </form>
+                    <h3>Make a Donation</h3>
+                    <div class="donate-platforms">
+                        <a href="https://www.globalgiving.org/projects/help-protect-endangered-sea-turtles-in-curacao/" target="_blank" class="donate-platform-btn globalgiving">
+                            <i class="fas fa-globe"></i>
+                            <span class="platform-name">GlobalGiving</span>
+                            <span class="platform-desc">Donate via credit card or PayPal</span>
+                        </a>
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=GDLGZHCXGB2UL" target="_blank" class="donate-platform-btn paypal">
+                            <i class="fab fa-paypal"></i>
+                            <span class="platform-name">PayPal</span>
+                            <span class="platform-desc">Fast and secure payment</span>
+                        </a>
+                    </div>
+                    <a href="donate.php" class="btn btn-outline" style="width: 100%; text-align: center;">More Donation Options</a>
                 </div>
             </div>
         </div>
