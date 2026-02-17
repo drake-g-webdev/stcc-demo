@@ -115,7 +115,7 @@ include 'includes/header.php';
                 </div>
                 <div class="board-card-expanded">
                     <div class="board-image">
-                        <img src="images/team/placeholder.svg" alt="Susan Wong">
+                        <img src="images/team/Susan.jpg" alt="Susan Wong">
                     </div>
                     <div class="board-content">
                         <h3>Susan Wong</h3>
