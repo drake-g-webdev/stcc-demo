@@ -14,21 +14,21 @@ if (isset($_SESSION['volunteer_authenticated']) && $_SESSION['volunteer_authenti
     exit;
 }
 
-// Process login BEFORE any HTML output
-$demoUsername = 'volunteer';
-$demoPassword = 'stcc2025';
+// Load credentials from config file
+$credentialsFile = __DIR__ . '/config/portal-credentials.php';
+$credentials = file_exists($credentialsFile) ? require $credentialsFile : ['username' => 'volunteer', 'password' => 'stcc2025'];
 $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    if ($username === $demoUsername && $password === $demoPassword) {
+    if ($username === $credentials['username'] && $password === $credentials['password']) {
         $_SESSION['volunteer_authenticated'] = true;
         header('Location: volunteer-portal.php');
         exit;
     } else {
-        $error = 'Invalid username or password. Try the demo credentials below.';
+        $error = 'Invalid username or password.';
     }
 }
 
@@ -66,22 +66,18 @@ include 'includes/header.php';
                     <form method="POST" class="login-form">
                         <div class="form-group">
                             <label for="username"><i class="fas fa-user"></i> Username</label>
-                            <input type="text" id="username" name="username" value="volunteer" required>
+                            <input type="text" id="username" name="username" required>
                         </div>
                         <div class="form-group">
                             <label for="password"><i class="fas fa-lock"></i> Password</label>
-                            <input type="password" id="password" name="password" value="stcc2025" required>
+                            <input type="password" id="password" name="password" required>
                         </div>
                         <button type="submit" class="btn btn-primary btn-large btn-block">
                             <i class="fas fa-sign-in-alt"></i> Sign In
                         </button>
                     </form>
 
-                    <div class="demo-credentials">
-                        <p><strong>Demo Credentials:</strong></p>
-                        <p>Username: <code>volunteer</code></p>
-                        <p>Password: <code>stcc2025</code></p>
-                    </div>
+                    <p class="login-help">Credentials are provided by STCC when you join as a volunteer.</p>
                 </div>
 
                 <div class="login-info">
