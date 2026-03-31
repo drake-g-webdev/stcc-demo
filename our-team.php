@@ -27,10 +27,11 @@ include 'includes/header.php';
                     <div class="staff-content">
                         <h3>Ard Vreugdenhil</h3>
                         <span class="staff-role">Field Coordinator</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>I am responsible for daily operations, ensuring that our interns and volunteers are educated and following STCC's protocols, and I help facilitate our group's interactions with stakeholders across Curaçao.</p>
+                        <p>As STCC's in-water specialist, I manage turtle rescues and research sessions, ensuring the safety of our island's turtles and STCC's dedicated team members.</p>
                         <p class="staff-philosophy">"Let's explore together and make connections – curiosity is key!"</p>
                         <div class="staff-contact">
-                            <a href="tel:+59996447970"><i class="fas fa-phone"></i> +5999 644 7970</a>
+                            <a href="tel:+59996647970"><i class="fas fa-phone"></i> +5999 664 7970</a>
                             <a href="mailto:ard.d.vreugdenhil@gmail.com"><i class="fas fa-envelope"></i> Email</a>
                             <a href="https://instagram.com/Ardvreugdenhil" target="_blank"><i class="fab fa-instagram"></i> @Ardvreugdenhil</a>
                         </div>
@@ -56,21 +57,6 @@ include 'includes/header.php';
             <div class="section-header">
                 <h2>Our Volunteers</h2>
                 <p>The heart and soul of our conservation efforts</p>
-            </div>
-            <div class="volunteer-highlights">
-                <div class="volunteer-card featured">
-                    <div class="volunteer-badge">
-                        <i class="fas fa-star"></i>
-                        <span>Featured Volunteer</span>
-                    </div>
-                    <div class="volunteer-image">
-                        <img src="images/team/placeholder.svg" alt="Featured Volunteer">
-                    </div>
-                    <div class="volunteer-content">
-                        <h3>Volunteer Spotlight</h3>
-                        <p>Each month, we recognize an outstanding volunteer who has made exceptional contributions to our mission. Check back soon to meet our featured volunteer!</p>
-                    </div>
-                </div>
             </div>
             <div class="volunteer-cta">
                 <p>Interested in becoming a volunteer?</p>

@@ -47,9 +47,9 @@ include 'includes/header.php';
                     <p>Public presentations, beach cleanups, and awareness events for local communities.</p>
                 </div>
                 <div class="program-card">
-                    <i class="fas fa-umbrella-beach"></i>
-                    <h3>Visitor Education</h3>
-                    <p>Information sessions for tourists on how to enjoy Curaçao's beaches while protecting sea turtles.</p>
+                    <i class="fas fa-store"></i>
+                    <h3>Visitor Center</h3>
+                    <p>Visit us at Sambil Mall (Carrefour entrance) to learn about sea turtles, our work, and how you can help. Open to tourists and locals alike.</p>
                 </div>
                 <div class="program-card">
                     <i class="fas fa-video"></i>
@@ -86,6 +86,7 @@ include 'includes/header.php';
             <p>Want us to visit your school, organization, or community group? Contact us to arrange an educational presentation.</p>
             <div class="cta-buttons">
                 <a href="mailto:info@curacaoturtles.org" class="btn btn-primary">Contact Us</a>
+                <a href="volunteer.php" class="btn btn-outline-white">Get Involved</a>
             </div>
         </div>
     </section>

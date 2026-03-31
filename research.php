@@ -59,6 +59,30 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Methods -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid reverse">
+                <div class="content-text">
+                    <h2>Our Methods</h2>
+                    <p>Our research combines traditional field techniques with modern technology:</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> In-water surveys and snorkel monitoring</li>
+                        <li><i class="fas fa-check"></i> Beach patrol documentation</li>
+                        <li><i class="fas fa-check"></i> Photographic identification database</li>
+                        <li><i class="fas fa-check"></i> Morphometric measurements</li>
+                        <li><i class="fas fa-check"></i> Health assessments</li>
+                        <li><i class="fas fa-check"></i> Collaboration with veterinary specialists</li>
+                    </ul>
+                    <p>All our research follows ethical guidelines and minimizes disturbance to the animals we study.</p>
+                </div>
+                <div class="content-image">
+                    <img src="images/turtle-underwater.jpg" alt="Research methods">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA -->
     <section class="cta-section">
         <div class="container">

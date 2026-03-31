@@ -48,6 +48,22 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Recognition -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <h2>Recognition & Certification</h2>
+                    <p>STCC has earned recognition for our commitment to transparency and effective conservation work.</p>
+                    <p>We're proud to be recognized by Global Giving, an organization that vets and supports nonprofits worldwide. This recognition reflects our dedication to accountability and impact.</p>
+                </div>
+                <div class="content-image">
+                    <img src="images/global-giving-badge.png" alt="Global Giving Certification">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Become a Partner -->
     <section class="cta-section">
         <div class="container">

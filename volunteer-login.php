@@ -14,16 +14,19 @@ if (isset($_SESSION['volunteer_authenticated']) && $_SESSION['volunteer_authenti
     exit;
 }
 
-// Load credentials from config file
+// Load credentials from config file (must exist — no hardcoded fallback)
 $credentialsFile = __DIR__ . '/config/portal-credentials.php';
-$credentials = file_exists($credentialsFile) ? require $credentialsFile : ['username' => 'volunteer', 'password' => 'stcc2025'];
+if (!file_exists($credentialsFile)) {
+    die('Portal credentials not configured. See config/portal-credentials.php.example for setup instructions.');
+}
+$credentials = require $credentialsFile;
 $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    if ($username === $credentials['username'] && $password === $credentials['password']) {
+    if ($username === $credentials['username'] && password_verify($password, $credentials['password_hash'])) {
         $_SESSION['volunteer_authenticated'] = true;
         header('Location: volunteer-portal.php');
         exit;

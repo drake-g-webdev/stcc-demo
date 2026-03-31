@@ -2576,6 +2576,97 @@ section {
     color: var(--color-teal);
 }
 
+.donate-platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.donate-platform-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.donate-platform-btn i {
+    font-size: 2rem;
+    width: 40px;
+    text-align: center;
+}
+
+.donate-platform-btn .platform-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+}
+
+.donate-platform-btn .platform-desc {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    display: block;
+}
+
+.donate-platform-btn.globalgiving {
+    background-color: #f26522;
+}
+
+.donate-platform-btn.globalgiving:hover {
+    background-color: #d4551a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(242, 101, 34, 0.4);
+}
+
+.donate-platform-btn.paypal {
+    background-color: #003087;
+}
+
+.donate-platform-btn.paypal:hover {
+    background-color: #002266;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 48, 135, 0.4);
+}
+
+.donate-bank-transfer {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.donate-bank-transfer h4 {
+    margin-bottom: 8px;
+    color: var(--color-dark-blue);
+}
+
+.donate-bank-transfer h4 i {
+    margin-right: 8px;
+    color: var(--color-teal);
+}
+
+.donate-bank-transfer p {
+    color: var(--color-gray);
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.bank-details {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-light);
+    border-radius: 4px;
+    padding: 12px 15px;
+    margin-top: 10px;
+}
+
+.bank-details p {
+    margin-bottom: 2px;
+}
+
 .custom-amount-field {
     margin-bottom: 20px;
 }

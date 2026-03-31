@@ -1,17 +1,23 @@
 /**
  * Volunteer Form Handler
- * Submits volunteer applications to Google Sheets and sends confirmation email
+ * Submits volunteer applications to Google Sheets and sends confirmation email.
+ * Falls back to mailto if Google Apps Script is not yet configured.
  */
 
 (function() {
     // Google Apps Script Web App URL - Replace with your deployed script URL
     const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+    const STCC_EMAIL = 'info@curacaoturtles.org';
 
     const form = document.getElementById('volunteer-form');
     const successMessage = document.getElementById('form-success');
     const errorMessage = document.getElementById('form-error');
 
     if (!form) return;
+
+    function isScriptConfigured() {
+        return GOOGLE_SCRIPT_URL && !GOOGLE_SCRIPT_URL.includes('YOUR_GOOGLE_APPS_SCRIPT_URL_HERE');
+    }
 
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
@@ -34,6 +40,21 @@
             return;
         }
 
+        // Fallback: send via email if Google Apps Script is not configured
+        if (!isScriptConfigured()) {
+            var subject = encodeURIComponent('New Volunteer Application: ' + formData.name);
+            var body = encodeURIComponent(
+                'New volunteer application submitted from the website:\n\n' +
+                'Name: ' + formData.name + '\n' +
+                'Country: ' + formData.country + '\n' +
+                'Email: ' + formData.email + '\n' +
+                'Submitted: ' + new Date().toLocaleString()
+            );
+            window.location.href = 'mailto:' + STCC_EMAIL + '?subject=' + subject + '&body=' + body;
+            showSuccess();
+            return;
+        }
+
         // Show loading state
         btnText.style.display = 'none';
         btnLoading.style.display = 'inline';
@@ -41,7 +62,7 @@
 
         try {
             // Submit to Google Sheets
-            const response = await fetch(GOOGLE_SCRIPT_URL, {
+            await fetch(GOOGLE_SCRIPT_URL, {
                 method: 'POST',
                 mode: 'no-cors',
                 headers: {
@@ -50,8 +71,8 @@
                 body: JSON.stringify(formData)
             });
 
-            // Since no-cors mode doesn't give us response details,
-            // we assume success if no error was thrown
+            // no-cors mode doesn't expose response details,
+            // but the request does reach the server when the URL is valid
             showSuccess();
 
         } catch (error) {
