@@ -51,20 +51,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Volunteers Section -->
-    <section class="volunteers-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Volunteers</h2>
-                <p>The heart and soul of our conservation efforts</p>
-            </div>
-            <div class="volunteer-cta">
-                <p>Interested in becoming a volunteer?</p>
-                <a href="volunteer.php" class="btn btn-primary">Join Our Team</a>
-            </div>
-        </div>
-    </section>
-
     <!-- Board Section -->
     <section class="board-section">
         <div class="container">
