@@ -119,7 +119,7 @@ include 'includes/header.php';
                         <h3>Stephanie Gooding</h3>
                         <span class="board-role">Board Member</span>
                         <div class="board-bio-wrapper">
-                            <p class="board-bio">Stephanie has lived on Curaçao since March of 2023. She was a science teacher for 20 years, and school administrator for over 5 years. Stephanie discovered her passion for sea turtles many years ago while volunteering on Pritchards Island, SC (USA) during Loggerhead Sea Turtle nesting season. She also serves on the Education and Social Media Committees, and is very active in the field.</p>
+                            <p class="board-bio">Stephanie and her husband Russ moved to Curaçao from the USA in March of 2023. She taught science for 20 years and was a school administrator for over 5 years. Stephanie discovered her love for sea turtles while volunteering on Pritchards Island, SC (USA) during Loggerhead nesting season. She looks forward to serving STCC through her passion for protecting our island's sea turtle population and its habitat.</p>
                         </div>
                         <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
