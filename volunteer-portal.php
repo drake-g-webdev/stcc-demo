@@ -457,51 +457,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Species Identification -->
-    <section class="portal-section bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fas fa-paw"></i> Species Identification by Track</h2>
-                <p>Identify sea turtle species by their track patterns</p>
-            </div>
-            <div class="species-tracks">
-                <div class="track-type">
-                    <h3>Flipper Marks Parallel</h3>
-                    <div class="track-cards">
-                        <div class="track-card">
-                            <div class="track-icon leatherback"></div>
-                            <h4>Leatherback</h4>
-                            <p>Track width: &gt;150cm / 60"</p>
-                            <p>Width: 175-214 cm</p>
-                        </div>
-                        <div class="track-card">
-                            <div class="track-icon green"></div>
-                            <h4>Green</h4>
-                            <p>Track width: &lt;150cm / 60"</p>
-                            <p>Width: 95-144 cm</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="track-type">
-                    <h3>Flipper Marks Alternate</h3>
-                    <div class="track-cards">
-                        <div class="track-card">
-                            <div class="track-icon loggerhead"></div>
-                            <h4>Loggerhead</h4>
-                            <p>No centre tail drag mark</p>
-                            <p>Width: 70-124 cm</p>
-                        </div>
-                        <div class="track-card">
-                            <div class="track-icon hawksbill"></div>
-                            <h4>Hawksbill</h4>
-                            <p>Centre tail drag mark</p>
-                            <p>Width: 70-85 cm</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Important Reminders -->
     <section class="portal-section">

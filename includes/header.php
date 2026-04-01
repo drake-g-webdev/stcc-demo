@@ -62,9 +62,8 @@ $basePath = isset($basePath) ? $basePath : '';
                             </ul>
                         </li>
                         <li class="has-dropdown">
-                            <a href="#">Explore</a>
+                            <a href="#">Sea Turtle Knowledge</a>
                             <ul class="dropdown">
-                                <li><a href="<?php echo $basePath; ?>sea-turtles.php">Sea Turtles of Curaçao</a></li>
                                 <li><a href="<?php echo $basePath; ?>fibropapillomatosis.php">Fibropapillomatosis</a></li>
                             </ul>
                         </li>

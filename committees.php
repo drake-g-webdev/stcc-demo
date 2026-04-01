@@ -8,7 +8,7 @@ include 'includes/header.php';
     <section class="page-header">
         <div class="container">
             <h1>Committees</h1>
-            <p>Our committees help drive specific initiatives and programs</p>
+            <p>Our committees are made up of dedicated volunteers and board members who focus on specific areas of our organization. Each committee is led by a Chair who coordinates activities and reports to the Board of Directors.</p>
         </div>
     </section>
 

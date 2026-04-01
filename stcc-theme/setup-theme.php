@@ -54,7 +54,6 @@ $pages = [
     ['events',                'Events',                '', ''],
     ['patrol-klein-curacao',  'Patrol Klein Curaçao',  '', ''],
     ['vacancies',             'Vacancies',             '', ''],
-    ['sea-turtles',           'Sea Turtles of Curaçao','', ''],
     ['fibropapillomatosis',   'Fibropapillomatosis',   '', ''],
     ['volunteer-portal',      'Volunteer Portal',      '', ''], // Will be password-protected
 ];
@@ -216,14 +215,13 @@ if (!$menu_exists) {
 
     // Explore (parent)
     $explore_id = wp_update_nav_menu_item($menu_id, 0, [
-        'menu-item-title'     => 'Explore',
+        'menu-item-title'     => 'Sea Turtle Knowledge',
         'menu-item-url'       => '#',
         'menu-item-status'    => 'publish',
         'menu-item-type'      => 'custom',
     ]);
 
     $explore_children = [
-        'Sea Turtles of Curaçao' => 'sea-turtles',
         'Fibropapillomatosis'    => 'fibropapillomatosis',
     ];
     foreach ($explore_children as $title => $slug) {
