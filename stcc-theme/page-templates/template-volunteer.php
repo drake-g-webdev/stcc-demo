@@ -18,44 +18,18 @@ wp_enqueue_script('stcc-volunteer-form', get_template_directory_uri() . '/js/vol
         </div>
     </section>
 
-    <!-- Requirements Section -->
+    <!-- Intro Section -->
     <section class="content-section">
         <div class="container">
             <div class="volunteer-intro">
                 <h2>Volunteer With Us</h2>
                 <p>Sea Turtle Conservation Curaçao Volunteers form the backbone of our organization. Approximately 98% of our team is comprised of Volunteers and unpaid Interns, so without the generous donation of your time and talent, STCC could never complete its mission to protect Curaçao's turtles, to educate residents and tourists, and to collect research data that will inform conservation efforts for decades to come.</p>
-                <p>Before applying to become a volunteer with Sea Turtle Conservation Curaçao, ensure you meet these requirements:</p>
-                <div class="requirements-box">
-                    <ul class="requirements-list">
-                        <li><i class="fas fa-check"></i> English is the main language used within the organization; fluency isn't required, but you must be able to communicate in English</li>
-                        <li><i class="fas fa-check"></i> Minimum age for volunteers is 18</li>
-                        <li><i class="fas fa-check"></i> A driver license B</li>
-                        <li><i class="fas fa-check"></i> Transportation to and from volunteer sites is your responsibility</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Non-Resident Considerations -->
-    <section class="content-section bg-light">
-        <div class="container">
-            <div class="volunteer-intro">
-                <h2>Not Living in Curaçao?</h2>
-                <p>If you are not living in Curaçao, here are some additional considerations:</p>
-                <div class="requirements-box">
-                    <ul class="requirements-list">
-                        <li><i class="fas fa-home"></i> You must arrange your own accommodation</li>
-                        <li><i class="fas fa-car"></i> It is highly recommended to rent a car in Curaçao</li>
-                        <li><i class="fas fa-passport"></i> If you plan to stay for longer than 3 months, a visa is mandatory if you are not a citizen of Curaçao or The Netherlands. Please keep in mind that arranging a visa takes a minimum of 4 months. Check the requirements of your country of citizenship and ensure you apply in time to avoid disappointment!</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- Activities Section -->
-    <section class="content-section">
+    <section class="content-section bg-light">
         <div class="container">
             <div class="section-header">
                 <h2>Volunteer Activities</h2>
@@ -91,6 +65,35 @@ wp_enqueue_script('stcc-volunteer-form', get_template_directory_uri() . '/js/vol
                     <i class="fas fa-camera"></i>
                     <h3>Photo Documentation</h3>
                     <p>Help photograph individual turtles to track population health and identify returning individuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Before You Apply</h2>
+                <p>Please review the following requirements and considerations</p>
+            </div>
+            <div class="requirements-grid">
+                <div class="requirements-box">
+                    <h3><i class="fas fa-clipboard-check"></i> Requirements</h3>
+                    <ul class="requirements-list">
+                        <li><i class="fas fa-check"></i> Must be able to communicate in English (fluency not required)</li>
+                        <li><i class="fas fa-check"></i> Minimum age of 18</li>
+                        <li><i class="fas fa-check"></i> A driver license B</li>
+                        <li><i class="fas fa-check"></i> Own transportation to and from volunteer sites</li>
+                    </ul>
+                </div>
+                <div class="requirements-box">
+                    <h3><i class="fas fa-plane-arrival"></i> Not Living in Curaçao?</h3>
+                    <ul class="requirements-list">
+                        <li><i class="fas fa-home"></i> You must arrange your own accommodation</li>
+                        <li><i class="fas fa-car"></i> It is highly recommended to rent a car</li>
+                        <li><i class="fas fa-passport"></i> Staying longer than 3 months? A visa is mandatory if you are not a citizen of Curaçao or The Netherlands. Arranging a visa takes a minimum of 4 months — apply early!</li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -4440,6 +4440,36 @@ section {
     color: #aaa;
 }
 
+.requirements-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.requirements-grid .requirements-box {
+    background: var(--color-gray-light);
+    border-radius: var(--border-radius);
+    padding: 30px;
+}
+
+.requirements-grid .requirements-box h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: var(--color-dark-blue);
+}
+
+.requirements-grid .requirements-box h3 i {
+    color: var(--color-teal);
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .requirements-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .application-form .radio-group {
     display: flex;
     gap: 20px;
