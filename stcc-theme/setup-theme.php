@@ -45,7 +45,7 @@ $pages = [
     ['internships',           'Internships',           'page-templates/template-internships.php',''],
     ['donate',                'Donate',                'page-templates/template-donate.php',     ''],
     ['our-mission',           'Our Mission',           '', ''],
-    ['our-allies',            'Our Allies',            '', ''],
+    ['our-allies',            'Partners & Supporters',            '', ''],
     ['committees',            'Committees',            '', ''],
     ['rescue-rehabilitation', 'Rescue & Rehabilitation','', ''],
     ['education',             'Education',             '', ''],
@@ -138,7 +138,7 @@ if (!$menu_exists) {
     $about_children = [
         'Our Team'              => 'our-team',
         'Our Mission'           => 'our-mission',
-        'Our Allies'            => 'our-allies',
+        'Partners & Supporters'            => 'our-allies',
         'Committees'            => 'committees',
     ];
     foreach ($about_children as $title => $slug) {
@@ -261,7 +261,7 @@ $footer_menus = [
         'items' => [
             'Our Team'             => 'our-team',
             'Our Mission'          => 'our-mission',
-            'Our Allies'           => 'our-allies',
+            'Partners & Supporters'           => 'our-allies',
             'Committees'           => 'committees',
         ],
     ],

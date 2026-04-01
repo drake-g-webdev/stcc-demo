@@ -21,7 +21,7 @@
                     <ul>
                         <li><a href="<?php echo home_url('/our-team/'); ?>">Our Team</a></li>
                         <li><a href="<?php echo home_url('/our-mission/'); ?>">Our Mission</a></li>
-                        <li><a href="<?php echo home_url('/our-allies/'); ?>">Our Allies</a></li>
+                        <li><a href="<?php echo home_url('/our-allies/'); ?>">Partners & Supporters</a></li>
                         <li><a href="<?php echo home_url('/committees/'); ?>">Committees</a></li>
                     </ul>
                     <?php } ?>

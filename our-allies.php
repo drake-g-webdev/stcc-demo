@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Our Allies';
+$pageTitle = 'Partners & Supporters';
 include 'includes/head.php';
 include 'includes/header.php';
 ?>
@@ -7,58 +7,89 @@ include 'includes/header.php';
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1>Our Allies</h1>
-            <p>Partners, supporters, and organizations working alongside us</p>
+            <h1>Partners & Supporters</h1>
+            <p>A huge thank you goes to our dedicated partners. Without your continued support, our work would not be possible!</p>
         </div>
     </section>
 
-    <!-- Intro -->
+    <!-- Partners Grid -->
     <section class="content-section">
         <div class="container">
-            <div class="intro-text">
-                <h2>Working Together for Conservation</h2>
-                <p>Sea turtle conservation requires collaboration. We're grateful for our partners, sponsors, and supporters who make our work possible. Together, we're making a difference for sea turtles in Curaçao and beyond.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Partner Types -->
-    <section class="content-section bg-light">
-        <div class="container">
             <div class="section-header">
-                <h2>Types of Partnerships</h2>
+                <h2>Our Partners</h2>
             </div>
-            <div class="partner-options">
-                <div class="partner-option">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Conservation Partners</h3>
-                    <p>Organizations and institutions we collaborate with on research, education, and conservation initiatives.</p>
-                </div>
-                <div class="partner-option">
-                    <i class="fas fa-building"></i>
-                    <h3>Corporate Sponsors</h3>
-                    <p>Businesses that provide financial support, in-kind donations, or employee volunteer programs.</p>
-                </div>
-                <div class="partner-option">
-                    <i class="fas fa-hand-holding-heart"></i>
-                    <h3>Individual Supporters</h3>
-                    <p>Donors and advocates who contribute through donations, fundraising, or spreading awareness.</p>
-                </div>
+            <div class="partners-grid">
+                <a href="https://sambil.cw" target="_blank" class="partner-card">
+                    <div class="partner-name">Sambil Curaçao</div>
+                    <span class="partner-url">sambil.cw</span>
+                </a>
+                <a href="https://natureconnecting.org" target="_blank" class="partner-card">
+                    <div class="partner-name">Nature Connecting</div>
+                    <span class="partner-url">natureconnecting.org</span>
+                </a>
+                <a href="https://widecast.org" target="_blank" class="partner-card">
+                    <div class="partner-name">WIDECAST</div>
+                    <span class="partner-url">widecast.org</span>
+                </a>
+                <a href="https://diveshopcuracao.com/en" target="_blank" class="partner-card">
+                    <div class="partner-name">Dive Shop Curaçao</div>
+                    <span class="partner-url">diveshopcuracao.com</span>
+                </a>
+                <a href="https://divecenterpietermaai.com" target="_blank" class="partner-card">
+                    <div class="partner-name">Dive Center Pietermaai</div>
+                    <span class="partner-url">divecenterpietermaai.com</span>
+                </a>
+                <a href="https://rebeldivingcuracao.com" target="_blank" class="partner-card">
+                    <div class="partner-name">Rebel Diving Curaçao</div>
+                    <span class="partner-url">rebeldivingcuracao.com</span>
+                </a>
+                <a href="https://uniekcuracao.com/en" target="_blank" class="partner-card">
+                    <div class="partner-name">Uniek Curaçao</div>
+                    <span class="partner-url">uniekcuracao.com</span>
+                </a>
+                <a href="https://mermaidboattrips.com" target="_blank" class="partner-card">
+                    <div class="partner-name">Mermaid Boat Trips</div>
+                    <span class="partner-url">mermaidboattrips.com</span>
+                </a>
+                <a href="https://missannboattrips.com" target="_blank" class="partner-card">
+                    <div class="partner-name">Miss Ann Boat Trips</div>
+                    <span class="partner-url">missannboattrips.com</span>
+                </a>
+                <a href="https://limpirecycling.com" target="_blank" class="partner-card">
+                    <div class="partner-name">Limpi Recycling</div>
+                    <span class="partner-url">limpirecycling.com</span>
+                </a>
+                <a href="https://carmabi.org" target="_blank" class="partner-card">
+                    <div class="partner-name">CARMABI</div>
+                    <span class="partner-url">carmabi.org</span>
+                </a>
+                <a href="https://lysaye.wixsite.com/curacaocleanup" target="_blank" class="partner-card">
+                    <div class="partner-name">Curaçao Cleanup</div>
+                    <span class="partner-url">curacaocleanup</span>
+                </a>
+                <a href="https://sitenzo.nl" target="_blank" class="partner-card">
+                    <div class="partner-name">Sitenzo</div>
+                    <span class="partner-url">sitenzo.nl</span>
+                </a>
+                <a href="https://blueplanetalliance.org" target="_blank" class="partner-card">
+                    <div class="partner-name">Blue Planet Alliance</div>
+                    <span class="partner-url">blueplanetalliance.org</span>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Recognition -->
-    <section class="content-section">
+    <section class="content-section bg-light">
         <div class="container">
             <div class="content-grid">
                 <div class="content-text">
                     <h2>Recognition & Certification</h2>
                     <p>STCC has earned recognition for our commitment to transparency and effective conservation work.</p>
-                    <p>We're proud to be recognized by Global Giving, an organization that vets and supports nonprofits worldwide. This recognition reflects our dedication to accountability and impact.</p>
+                    <p>We're proud to be recognized by GlobalGiving, an organization that vets and supports nonprofits worldwide. This recognition reflects our dedication to accountability and impact.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/global-giving-badge.png" alt="Global Giving Certification">
+                    <img src="images/global-giving-badge.png" alt="GlobalGiving Certification">
                 </div>
             </div>
         </div>
@@ -67,7 +98,7 @@ include 'includes/header.php';
     <!-- Become a Partner -->
     <section class="cta-section">
         <div class="container">
-            <h2>Become an Ally</h2>
+            <h2>Become a Partner</h2>
             <p>Interested in partnering with Sea Turtle Conservation Curaçao? We're always looking for new collaborations to expand our impact.</p>
             <div class="cta-buttons">
                 <a href="mailto:info@curacaoturtles.org" class="btn btn-primary">Contact Us</a>
