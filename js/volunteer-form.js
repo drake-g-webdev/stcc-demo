@@ -27,16 +27,27 @@
         const btnLoading = submitBtn.querySelector('.btn-loading');
 
         // Get form data
-        const formData = {
+        var genderEl = form.querySelector('input[name="gender"]:checked');
+        var formData = {
+            gender: genderEl ? genderEl.value : '',
             name: document.getElementById('volunteer-name').value.trim(),
+            dob: document.getElementById('volunteer-dob').value,
+            phone: document.getElementById('volunteer-phone').value.trim(),
             country: document.getElementById('volunteer-country').value.trim(),
             email: document.getElementById('volunteer-email').value.trim(),
             timestamp: new Date().toISOString()
         };
 
+        var emailConfirm = document.getElementById('volunteer-email-confirm').value.trim();
+
         // Validate
-        if (!formData.name || !formData.country || !formData.email) {
+        if (!formData.gender || !formData.name || !formData.dob || !formData.phone || !formData.country || !formData.email) {
             alert('Please fill in all required fields.');
+            return;
+        }
+
+        if (formData.email !== emailConfirm) {
+            alert('Email addresses do not match. Please check and try again.');
             return;
         }
 
@@ -45,7 +56,10 @@
             var subject = encodeURIComponent('New Volunteer Application: ' + formData.name);
             var body = encodeURIComponent(
                 'New volunteer application submitted from the website:\n\n' +
+                'Gender: ' + formData.gender + '\n' +
                 'Name: ' + formData.name + '\n' +
+                'Date of Birth: ' + formData.dob + '\n' +
+                'Phone: ' + formData.phone + '\n' +
                 'Country: ' + formData.country + '\n' +
                 'Email: ' + formData.email + '\n' +
                 'Submitted: ' + new Date().toLocaleString()
@@ -61,7 +75,6 @@
         submitBtn.disabled = true;
 
         try {
-            // Submit to Google Sheets
             await fetch(GOOGLE_SCRIPT_URL, {
                 method: 'POST',
                 mode: 'no-cors',
@@ -71,15 +84,12 @@
                 body: JSON.stringify(formData)
             });
 
-            // no-cors mode doesn't expose response details,
-            // but the request does reach the server when the URL is valid
             showSuccess();
 
         } catch (error) {
             console.error('Form submission error:', error);
             showError();
         } finally {
-            // Reset button state
             btnText.style.display = 'inline';
             btnLoading.style.display = 'none';
             submitBtn.disabled = false;
@@ -90,15 +100,11 @@
         form.style.display = 'none';
         successMessage.style.display = 'block';
         errorMessage.style.display = 'none';
-
-        // Scroll to message
         successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
     function showError() {
         errorMessage.style.display = 'block';
-
-        // Scroll to message
         errorMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 })();

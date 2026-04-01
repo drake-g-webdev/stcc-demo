@@ -304,6 +304,13 @@ function stcc_handle_form_submission() {
     update_post_meta($post_id, '_stcc_email', $email);
     update_post_meta($post_id, '_stcc_country', $country);
 
+    // Volunteer-specific fields
+    if ($form_type === 'volunteer') {
+        update_post_meta($post_id, '_stcc_gender', sanitize_text_field($_POST['gender'] ?? ''));
+        update_post_meta($post_id, '_stcc_dob', sanitize_text_field($_POST['dob'] ?? ''));
+        update_post_meta($post_id, '_stcc_phone', sanitize_text_field($_POST['phone'] ?? ''));
+    }
+
     // Intern-specific fields
     if ($form_type === 'internship') {
         update_post_meta($post_id, '_stcc_university', sanitize_text_field($_POST['university'] ?? ''));
@@ -317,6 +324,11 @@ function stcc_handle_form_submission() {
     $body .= "Name: {$name}\n";
     $body .= "Email: {$email}\n";
     $body .= "Country: {$country}\n";
+    if ($form_type === 'volunteer') {
+        $body .= "Gender: " . sanitize_text_field($_POST['gender'] ?? '') . "\n";
+        $body .= "Date of Birth: " . sanitize_text_field($_POST['dob'] ?? '') . "\n";
+        $body .= "Phone: " . sanitize_text_field($_POST['phone'] ?? '') . "\n";
+    }
     if ($form_type === 'internship') {
         $body .= "University: " . sanitize_text_field($_POST['university'] ?? '') . "\n";
         $body .= "Degree: " . sanitize_text_field($_POST['degree'] ?? '') . "\n";
@@ -386,6 +398,11 @@ function stcc_submission_details_callback($post) {
     ];
 
     $form_type = get_post_meta($post->ID, '_stcc_form_type', true);
+    if ($form_type === 'volunteer') {
+        $fields['Gender']        = get_post_meta($post->ID, '_stcc_gender', true);
+        $fields['Date of Birth'] = get_post_meta($post->ID, '_stcc_dob', true);
+        $fields['Phone']         = get_post_meta($post->ID, '_stcc_phone', true);
+    }
     if ($form_type === 'internship') {
         $fields['University']    = get_post_meta($post->ID, '_stcc_university', true);
         $fields['Degree Program'] = get_post_meta($post->ID, '_stcc_degree', true);

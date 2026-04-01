@@ -8,6 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
+        // Email confirmation check
+        var email = document.getElementById('volunteer-email').value.trim();
+        var emailConfirm = document.getElementById('volunteer-email-confirm').value.trim();
+        if (email !== emailConfirm) {
+            alert('Email addresses do not match. Please check and try again.');
+            return;
+        }
+
         var btnText = form.querySelector('.btn-text');
         var btnLoading = form.querySelector('.btn-loading');
         var submitBtn = form.querySelector('button[type="submit"]');
