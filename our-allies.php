@@ -20,60 +20,82 @@ include 'includes/header.php';
             </div>
             <div class="partners-grid">
                 <a href="https://sambil.cw" target="_blank" class="partner-card">
+                    <img src="images/supporters/Sambil-1.png" alt="Sambil Curaçao" class="partner-logo">
                     <div class="partner-name">Sambil Curaçao</div>
                     <span class="partner-url">sambil.cw</span>
                 </a>
                 <a href="https://natureconnecting.org" target="_blank" class="partner-card">
+                    <img src="images/supporters/Nature-Connecting-1.png" alt="Nature Connecting" class="partner-logo">
                     <div class="partner-name">Nature Connecting</div>
                     <span class="partner-url">natureconnecting.org</span>
                 </a>
                 <a href="https://widecast.org" target="_blank" class="partner-card">
+                    <img src="images/supporters/Widecast.png" alt="WIDECAST" class="partner-logo">
                     <div class="partner-name">WIDECAST</div>
                     <span class="partner-url">widecast.org</span>
                 </a>
                 <a href="https://diveshopcuracao.com/en" target="_blank" class="partner-card">
+                    <img src="images/supporters/Carib-Bean-1.png" alt="Dive Shop Curaçao" class="partner-logo">
                     <div class="partner-name">Dive Shop Curaçao</div>
                     <span class="partner-url">diveshopcuracao.com</span>
                 </a>
                 <a href="https://divecenterpietermaai.com" target="_blank" class="partner-card">
+                    <img src="images/supporters/Dive-Center-Pietermaai-Curacao-1.png" alt="Dive Center Pietermaai" class="partner-logo">
                     <div class="partner-name">Dive Center Pietermaai</div>
                     <span class="partner-url">divecenterpietermaai.com</span>
                 </a>
                 <a href="https://rebeldivingcuracao.com" target="_blank" class="partner-card">
+                    <img src="images/supporters/Rebel-Diving-Logo-1.png" alt="Rebel Diving Curaçao" class="partner-logo">
                     <div class="partner-name">Rebel Diving Curaçao</div>
                     <span class="partner-url">rebeldivingcuracao.com</span>
                 </a>
                 <a href="https://uniekcuracao.com/en" target="_blank" class="partner-card">
+                    <img src="images/supporters/Stichting-Uniek-Curacao-1.png" alt="Uniek Curaçao" class="partner-logo">
                     <div class="partner-name">Uniek Curaçao</div>
                     <span class="partner-url">uniekcuracao.com</span>
                 </a>
                 <a href="https://mermaidboattrips.com" target="_blank" class="partner-card">
+                    <img src="images/supporters/Mermaid.png" alt="Mermaid Boat Trips" class="partner-logo">
                     <div class="partner-name">Mermaid Boat Trips</div>
                     <span class="partner-url">mermaidboattrips.com</span>
                 </a>
                 <a href="https://missannboattrips.com" target="_blank" class="partner-card">
+                    <img src="images/supporters/Miss-Ann-1.png" alt="Miss Ann Boat Trips" class="partner-logo">
                     <div class="partner-name">Miss Ann Boat Trips</div>
                     <span class="partner-url">missannboattrips.com</span>
                 </a>
                 <a href="https://limpirecycling.com" target="_blank" class="partner-card">
+                    <img src="images/supporters/Limpi-1.png" alt="Limpi Recycling" class="partner-logo">
                     <div class="partner-name">Limpi Recycling</div>
                     <span class="partner-url">limpirecycling.com</span>
                 </a>
                 <a href="https://carmabi.org" target="_blank" class="partner-card">
+                    <img src="images/supporters/Carmabi.png" alt="CARMABI" class="partner-logo">
                     <div class="partner-name">CARMABI</div>
                     <span class="partner-url">carmabi.org</span>
                 </a>
                 <a href="https://lysaye.wixsite.com/curacaocleanup" target="_blank" class="partner-card">
+                    <img src="images/supporters/Curacao-clean-ups.jpg" alt="Curaçao Cleanup" class="partner-logo">
                     <div class="partner-name">Curaçao Cleanup</div>
                     <span class="partner-url">curacaocleanup</span>
                 </a>
                 <a href="https://sitenzo.nl" target="_blank" class="partner-card">
+                    <img src="images/supporters/SiteNzo.png" alt="Sitenzo" class="partner-logo">
                     <div class="partner-name">Sitenzo</div>
                     <span class="partner-url">sitenzo.nl</span>
                 </a>
                 <a href="https://blueplanetalliance.org" target="_blank" class="partner-card">
+                    <img src="images/supporters/blueplanet.jpg" alt="Blue Planet Alliance" class="partner-logo">
                     <div class="partner-name">Blue Planet Alliance</div>
                     <span class="partner-url">blueplanetalliance.org</span>
+                </a>
+                <a href="#" class="partner-card">
+                    <img src="images/supporters/Blue-Bay-Dive.jpeg" alt="Blue Bay Dive" class="partner-logo">
+                    <div class="partner-name">Blue Bay Dive</div>
+                </a>
+                <a href="#" class="partner-card">
+                    <img src="images/supporters/into the blue.png" alt="Into The Blue" class="partner-logo">
+                    <div class="partner-name">Into The Blue</div>
                 </a>
             </div>
         </div>

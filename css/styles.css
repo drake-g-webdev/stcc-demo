@@ -4468,6 +4468,13 @@ section {
     transform: translateY(-3px);
 }
 
+.partner-logo {
+    max-width: 160px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
 .partner-name {
     font-family: var(--font-primary);
     font-weight: 700;
