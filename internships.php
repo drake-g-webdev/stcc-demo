@@ -21,7 +21,7 @@ include 'includes/header.php';
                 <p>Interns work alongside our field coordinator and staff, gaining practical experience in wildlife rescue, rehabilitation, and research methodologies. This program is ideal for students in marine biology, environmental science, veterinary studies, or related fields.</p>
                 <div class="intern-status-notice">
                     <i class="fas fa-users"></i>
-                    <p>STCC has four active interns on staff now. We are not seeking interns for the summer session until late spring. Please check back. Thanks for your interest!</p>
+                    <p>STCC is not currently accepting new intern applications. Please check back for updates on upcoming openings. Thanks for your interest!</p>
                 </div>
             </div>
         </div>

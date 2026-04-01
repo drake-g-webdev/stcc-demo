@@ -124,6 +124,19 @@ include 'includes/header.php';
                         <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
+                <div class="board-card-expanded">
+                    <div class="board-image">
+                        <img src="images/team/carolina.jpg" alt="Carolina Marcías">
+                    </div>
+                    <div class="board-content">
+                        <h3>Carolina Marcías</h3>
+                        <span class="board-role">Chair, Fundraising Committee</span>
+                        <div class="board-bio-wrapper">
+                            <p class="board-bio">Carolina has been living on Curaçao for seven years now, and has been a dedicated volunteer with STCC since day one. A designer by trade and co-owner of Scubaçao, she also works as a dive instructor, sharing her love for the ocean with others. Carolina is excited to take on a new role as Chair of the Fundraising Committee, combining her creativity and passion for marine life to support STCC's mission.</p>
+                        </div>
+                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

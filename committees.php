@@ -54,7 +54,7 @@ include 'includes/header.php';
                     <h3>Fundraising Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: TBA</span>
+                        <span>Lead: Carolina Marcías</span>
                     </div>
                     <p>Plans and executes fundraising events and campaigns to support our conservation programs and operational needs.</p>
                 </div>
