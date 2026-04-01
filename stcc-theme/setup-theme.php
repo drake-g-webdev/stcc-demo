@@ -47,7 +47,6 @@ $pages = [
     ['our-mission',           'Our Mission',           '', ''],
     ['our-allies',            'Our Allies',            '', ''],
     ['committees',            'Committees',            '', ''],
-    ['financial-disclosure',  'Financial Disclosure',  '', ''],
     ['rescue-rehabilitation', 'Rescue & Rehabilitation','', ''],
     ['education',             'Education',             '', ''],
     ['research',              'Research',              '', ''],
@@ -141,7 +140,6 @@ if (!$menu_exists) {
         'Our Mission'           => 'our-mission',
         'Our Allies'            => 'our-allies',
         'Committees'            => 'committees',
-        'Financial Disclosure'  => 'financial-disclosure',
     ];
     foreach ($about_children as $title => $slug) {
         $page = get_page_by_path($slug);
@@ -265,7 +263,6 @@ $footer_menus = [
             'Our Mission'          => 'our-mission',
             'Our Allies'           => 'our-allies',
             'Committees'           => 'committees',
-            'Financial Disclosure' => 'financial-disclosure',
         ],
     ],
     'Footer - Our Work' => [

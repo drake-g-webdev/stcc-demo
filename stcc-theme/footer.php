@@ -23,7 +23,6 @@
                         <li><a href="<?php echo home_url('/our-mission/'); ?>">Our Mission</a></li>
                         <li><a href="<?php echo home_url('/our-allies/'); ?>">Our Allies</a></li>
                         <li><a href="<?php echo home_url('/committees/'); ?>">Committees</a></li>
-                        <li><a href="<?php echo home_url('/financial-disclosure/'); ?>">Financial Disclosure</a></li>
                     </ul>
                     <?php } ?>
                 </div>
