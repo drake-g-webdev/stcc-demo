@@ -48,6 +48,48 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Activities Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Volunteer Activities</h2>
+                <p>There are many ways you can contribute to our mission</p>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <i class="fas fa-walking"></i>
+                    <h3>Beach Patrols</h3>
+                    <p>Help monitor beaches for nesting activity and protect turtle nests from predators and human disturbance.</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-egg"></i>
+                    <h3>Nest Monitoring</h3>
+                    <p>Track and document nesting sites from June through December during the nesting season.</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-life-ring"></i>
+                    <h3>Rescue Response</h3>
+                    <p>Assist with emergency response when sea turtles are found injured or stranded.</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Rehabilitation Care</h3>
+                    <p>Help care for turtles recovering at our facilities, including feeding and tank maintenance.</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Education Outreach</h3>
+                    <p>Assist with educational programs and community awareness events.</p>
+                </div>
+                <div class="activity-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photo Documentation</h3>
+                    <p>Help photograph individual turtles to track population health and identify returning individuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Volunteer Application Section -->
     <section class="content-section">
         <div class="container">
