@@ -89,7 +89,7 @@ get_header();
                     <i class="fas fa-share-alt"></i>
                     <h3>Spread the Word</h3>
                     <p>Follow us on social media and share our mission with your friends and family.</p>
-                    <a href="https://www.facebook.com/curacaoturtles" target="_blank" class="btn btn-outline">Follow Us</a>
+                    <a href="https://www.facebook.com/SeaTurtleConservationCuracao" target="_blank" class="btn btn-outline">Follow Us</a>
                 </div>
             </div>
         </div>

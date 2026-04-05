@@ -74,7 +74,7 @@ include 'includes/header.php';
             <h2>Stay Updated</h2>
             <p>Follow us on social media to be the first to know about upcoming events and activities.</p>
             <div class="social-buttons" style="justify-content: center;">
-                <a href="https://www.facebook.com/curacaoturtles" target="_blank" class="social-btn facebook">
+                <a href="https://www.facebook.com/SeaTurtleConservationCuracao" target="_blank" class="social-btn facebook">
                     <i class="fab fa-facebook-f"></i> Facebook
                 </a>
                 <a href="https://www.instagram.com/curacaoturtles" target="_blank" class="social-btn instagram">

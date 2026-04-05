@@ -59,7 +59,7 @@ get_header();
                 <h2>Stay Updated</h2>
                 <p>Follow us on social media to get the latest news and updates about our conservation work.</p>
                 <div class="social-buttons">
-                    <a href="https://www.facebook.com/curacaoturtles" target="_blank" class="social-btn facebook">
+                    <a href="https://www.facebook.com/SeaTurtleConservationCuracao" target="_blank" class="social-btn facebook">
                         <i class="fab fa-facebook-f"></i> Facebook
                     </a>
                     <a href="https://www.instagram.com/curacaoturtles" target="_blank" class="social-btn instagram">
