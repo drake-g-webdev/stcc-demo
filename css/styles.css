@@ -4461,6 +4461,137 @@ section {
     color: #aaa;
 }
 
+/* Sea Turtle Knowledge Carousel */
+.knowledge-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.knowledge-nav-item {
+    padding: 10px 18px;
+    background: var(--color-gray-light);
+    border-radius: 30px;
+    color: var(--color-dark-blue);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.knowledge-nav-item:hover {
+    border-color: var(--color-teal);
+    color: var(--color-teal);
+}
+
+.knowledge-nav-item.active {
+    background: var(--color-teal);
+    color: var(--color-white);
+    border-color: var(--color-teal);
+}
+
+.knowledge-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    flex: 1;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.carousel-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--color-teal);
+    background: var(--color-white);
+    color: var(--color-teal);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn:hover {
+    background: var(--color-teal);
+    color: var(--color-white);
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-gray-light);
+    border: 2px solid var(--color-gray);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.carousel-dot.active {
+    background: var(--color-teal);
+    border-color: var(--color-teal);
+}
+
+.knowledge-download {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .knowledge-nav-item {
+        font-size: 0.8rem;
+        padding: 8px 14px;
+    }
+
+    .carousel-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-btn {
+        display: none;
+    }
+}
+
 /* Partners Grid */
 .partners-grid {
     display: grid;

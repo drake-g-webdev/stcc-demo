@@ -53,6 +53,7 @@ $pages = [
     ['events',                'Events',                '', ''],
     ['patrol-klein-curacao',  'Patrol Klein Curaçao',  '', ''],
     ['vacancies',             'Vacancies',             '', ''],
+    ['sea-turtle-knowledge',  'Sea Turtle Knowledge',  '', ''],
     ['fibropapillomatosis',   'Fibropapillomatosis',   '', ''],
     ['volunteer-portal',      'Volunteer Portal',      '', ''], // Will be password-protected
 ];
@@ -220,6 +221,7 @@ if (!$menu_exists) {
     ]);
 
     $explore_children = [
+        'Sea Turtle Knowledge'   => 'sea-turtle-knowledge',
         'Fibropapillomatosis'    => 'fibropapillomatosis',
     ];
     foreach ($explore_children as $title => $slug) {
