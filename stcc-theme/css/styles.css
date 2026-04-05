@@ -3446,6 +3446,27 @@ section {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 
+.social-btn.youtube {
+    background-color: #ff0000;
+}
+
+.social-btn.linkedin {
+    background-color: #0a66c2;
+}
+
+.social-buttons-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.social-buttons-inline .social-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+}
+
 .social-btn:hover {
     color: var(--color-white);
     opacity: 0.9;
