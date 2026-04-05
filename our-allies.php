@@ -97,6 +97,11 @@ include 'includes/header.php';
                     <img src="images/supporters/into the blue.png" alt="Into The Blue" class="partner-logo">
                     <div class="partner-name">Into The Blue</div>
                 </a>
+                <a href="https://www.jefferson.edu/index.html" target="_blank" class="partner-card">
+                    <img src="images/supporters/jeffersonuni.png" alt="Thomas Jefferson University" class="partner-logo">
+                    <div class="partner-name">Thomas Jefferson University</div>
+                    <span class="partner-url">jefferson.edu</span>
+                </a>
             </div>
         </div>
     </section>
