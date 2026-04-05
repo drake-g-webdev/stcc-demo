@@ -89,11 +89,11 @@ get_header();
                     <i class="fas fa-share-alt"></i>
                     <h3>Spread the Word</h3>
                     <p>Follow us on social media and share our mission with your friends and family.</p>
-                    <div class="social-buttons-inline">
-                        <a href="https://www.facebook.com/SeaTurtleConservationCuracao" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-                        <a href="https://www.instagram.com/curacaoturtles/" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
-                        <a href="https://www.youtube.com/channel/UCRUNdWbRZ5odDvW0BZDZfwQ" target="_blank" class="social-btn youtube"><i class="fab fa-youtube"></i> YouTube</a>
-                        <a href="https://www.linkedin.com/company/sea-turtle-conservation-cura-ao/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <div class="social-icons-inline">
+                        <a href="https://www.facebook.com/SeaTurtleConservationCuracao" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/curacaoturtles/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCRUNdWbRZ5odDvW0BZDZfwQ" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/sea-turtle-conservation-cura-ao/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

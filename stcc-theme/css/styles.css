@@ -3454,17 +3454,33 @@ section {
     background-color: #0a66c2;
 }
 
-.social-buttons-inline {
+.social-icons-inline {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     margin-top: 15px;
     justify-content: center;
 }
 
-.social-buttons-inline .social-btn {
-    font-size: 0.9rem;
-    padding: 8px 16px;
+.social-icons-inline a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.social-icons-inline a:nth-child(1) { background: #1877f2; }
+.social-icons-inline a:nth-child(2) { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.social-icons-inline a:nth-child(3) { background: #ff0000; }
+.social-icons-inline a:nth-child(4) { background: #0a66c2; }
+
+.social-icons-inline a:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
 }
 
 .social-btn:hover {
