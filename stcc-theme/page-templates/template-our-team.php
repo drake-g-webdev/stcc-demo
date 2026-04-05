@@ -31,6 +31,18 @@ $board = new WP_Query([
         'terms'    => 'board',
     ]],
 ]);
+
+$committee = new WP_Query([
+    'post_type'      => 'stcc_team',
+    'posts_per_page' => -1,
+    'orderby'        => 'menu_order',
+    'order'          => 'ASC',
+    'tax_query'      => [[
+        'taxonomy' => 'team_role',
+        'field'    => 'slug',
+        'terms'    => 'committee',
+    ]],
+]);
 ?>
 
     <!-- Page Header -->
@@ -112,6 +124,32 @@ $board = new WP_Query([
                             <div class="board-bio"><?php the_content(); ?></div>
                         </div>
                         <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
+                    </div>
+                </div>
+                <?php endwhile; wp_reset_postdata(); ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Committee Chairs Section -->
+    <section class="team-section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Committee Chairs</h2>
+                <p>Leading our focused initiatives and programs</p>
+            </div>
+            <div class="staff-grid">
+                <?php while ($committee->have_posts()) : $committee->the_post(); ?>
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <?php if (has_post_thumbnail()) : ?>
+                            <?php the_post_thumbnail('medium_large', ['alt' => get_the_title()]); ?>
+                        <?php endif; ?>
+                    </div>
+                    <div class="staff-content">
+                        <h3><?php the_title(); ?></h3>
+                        <span class="staff-role"><?php echo esc_html(get_post_meta(get_the_ID(), '_stcc_job_title', true)); ?></span>
+                        <?php the_content(); ?>
                     </div>
                 </div>
                 <?php endwhile; wp_reset_postdata(); ?>

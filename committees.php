@@ -34,9 +34,9 @@ include 'includes/header.php';
                     </div>
                     <div class="committee-lead-details">
                         <h3>Manuela Tripepi, PhD</h3>
-                        <span class="lead-title">Scientific Committee Lead</span>
+                        <span class="lead-title">Scientific Committee Chair</span>
                         <span class="lead-affiliation">Associate Professor of Biology - Thomas Jefferson University</span>
-                        <p>As Scientific Committee Lead for Sea Turtle Conservation Curaçao (STCC), Dr. Tripepi oversees the development, scientific rigor, and ethical integrity of research projects conducted by the organization. She leads study design, data collection protocols, and analysis, while mentoring students and early-career researchers engaged in field and laboratory work. In this role, she ensures that STCC's research aligns with international conservation standards and translates directly into evidence-based management and conservation practices.</p>
+                        <p>As Chair of the Scientific Committee for Sea Turtle Conservation Curaçao (STCC), Dr. Tripepi oversees the development, scientific rigor, and ethical integrity of research projects conducted by the organization. She leads study design, data collection protocols, and analysis, while mentoring students and early-career researchers engaged in field and laboratory work. In this role, she ensures that STCC's research aligns with international conservation standards and translates directly into evidence-based management and conservation practices.</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ include 'includes/header.php';
                     <h3>Fundraising Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: Carolina Marcías</span>
+                        <span>Chair: Carolina Marcías</span>
                     </div>
                     <p>Plans and executes fundraising events and campaigns to support our conservation programs and operational needs.</p>
                 </div>
@@ -62,7 +62,7 @@ include 'includes/header.php';
                     <h3>Data Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: TBA</span>
+                        <span>Chair: TBA</span>
                     </div>
                     <p>Manages data collection, database systems, and analysis to support research and conservation decision-making.</p>
                 </div>
@@ -70,7 +70,7 @@ include 'includes/header.php';
                     <h3>Education Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: TBA</span>
+                        <span>Chair: TBA</span>
                     </div>
                     <p>Develops and implements educational programs for schools, community groups, and visitors to raise awareness about sea turtle conservation.</p>
                 </div>
@@ -78,7 +78,7 @@ include 'includes/header.php';
                     <h3>Social Media Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: TBA</span>
+                        <span>Chair: TBA</span>
                     </div>
                     <p>Manages social media presence, content creation, and online community engagement to share our story and impact.</p>
                 </div>
@@ -86,7 +86,7 @@ include 'includes/header.php';
                     <h3>Rescue Center Committee</h3>
                     <div class="committee-lead">
                         <i class="fas fa-user"></i>
-                        <span>Lead: TBA</span>
+                        <span>Chair: TBA</span>
                     </div>
                     <p>Oversees rescue center operations, rehabilitation protocols, and facility management for injured sea turtles.</p>
                 </div>

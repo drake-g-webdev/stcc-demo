@@ -325,6 +325,11 @@ if (!$board_term) {
     $board_term = wp_insert_term('Board', 'team_role', ['slug' => 'board']);
 }
 
+$committee_term = term_exists('Committee', 'team_role');
+if (!$committee_term) {
+    $committee_term = wp_insert_term('Committee', 'team_role', ['slug' => 'committee']);
+}
+
 $team_members = [
     // Staff
     [
@@ -413,9 +418,21 @@ $team_members = [
         'image'     => 'team/stephanie.jpg',
     ],
     [
+        'name'      => 'Manuela Tripepi, PhD',
+        'role'      => 'committee',
+        'order'     => 1,
+        'job_title' => 'Chair, Scientific Committee',
+        'bio'       => "As Chair of the Scientific Committee for Sea Turtle Conservation Curaçao (STCC), Dr. Tripepi oversees the development, scientific rigor, and ethical integrity of research projects conducted by the organization. She leads study design, data collection protocols, and analysis, while mentoring students and early-career researchers engaged in field and laboratory work.",
+        'philosophy'=> '',
+        'phone'     => '',
+        'email'     => '',
+        'instagram' => '',
+        'image'     => 'team/manuela.jpg',
+    ],
+    [
         'name'      => 'Carolina Marcías',
-        'role'      => 'board',
-        'order'     => 6,
+        'role'      => 'committee',
+        'order'     => 2,
         'job_title' => 'Chair, Fundraising Committee',
         'bio'       => "Carolina has been living on Curaçao for seven years now, and has been a dedicated volunteer with STCC since day one. A designer by trade and co-owner of Scubaçao, she also works as a dive instructor, sharing her love for the ocean with others. Carolina is excited to take on a new role as Chair of the Fundraising Committee, combining her creativity and passion for marine life to support STCC's mission.",
         'philosophy'=> '',

@@ -124,17 +124,36 @@ include 'includes/header.php';
                         <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
                     </div>
                 </div>
-                <div class="board-card-expanded">
-                    <div class="board-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Committee Chairs Section -->
+    <section class="team-section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Committee Chairs</h2>
+                <p>Leading our focused initiatives and programs</p>
+            </div>
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="images/team/manuela.jpg" alt="Dr. Manuela Tripepi">
+                    </div>
+                    <div class="staff-content">
+                        <h3>Manuela Tripepi, PhD</h3>
+                        <span class="staff-role">Chair, Scientific Committee</span>
+                        <p>As Scientific Committee Chair for Sea Turtle Conservation Curaçao (STCC), Dr. Tripepi oversees the development, scientific rigor, and ethical integrity of research projects conducted by the organization. She leads study design, data collection protocols, and analysis, while mentoring students and early-career researchers engaged in field and laboratory work.</p>
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="staff-image">
                         <img src="images/team/carolina.jpg" alt="Carolina Marcías">
                     </div>
-                    <div class="board-content">
+                    <div class="staff-content">
                         <h3>Carolina Marcías</h3>
-                        <span class="board-role">Chair, Fundraising Committee</span>
-                        <div class="board-bio-wrapper">
-                            <p class="board-bio">Carolina has been living on Curaçao for seven years now, and has been a dedicated volunteer with STCC since day one. A designer by trade and co-owner of Scubaçao, she also works as a dive instructor, sharing her love for the ocean with others. Carolina is excited to take on a new role as Chair of the Fundraising Committee, combining her creativity and passion for marine life to support STCC's mission.</p>
-                        </div>
-                        <button class="board-read-more">Read More <i class="fas fa-chevron-down"></i></button>
+                        <span class="staff-role">Chair, Fundraising Committee</span>
+                        <p>Carolina has been living on Curaçao for seven years now, and has been a dedicated volunteer with STCC since day one. A designer by trade and co-owner of Scubaçao, she also works as a dive instructor, sharing her love for the ocean with others. Carolina is excited to take on a new role as Chair of the Fundraising Committee, combining her creativity and passion for marine life to support STCC's mission.</p>
                     </div>
                 </div>
             </div>
