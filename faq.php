@@ -49,6 +49,21 @@ include 'includes/header.php';
                             <p>Our visitor center is located at Sambil Mall (Carrefour entrance) in Curaçao. Our fieldwork takes place across Curaçao's beaches and surrounding waters, including Klein Curaçao.</p>
                         </div>
                     </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is STCC primarily a Conservation Organization or a Scientific Organization?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Both actually, as there can be no rational or functional conservation efforts made without a solid basis in the scientific evaluation of accurate data collected over moderate to long time spans.</p>
+                            <p>Please consider two points from Article 2 of our Foundation's articles of incorporation:</p>
+                            <blockquote class="faq-blockquote">
+                                <p><strong>1.</strong> The foundation's goal is to provide broad-based sustainable protection, conservation and restoration of sea turtle populations and their habitats, in a scientifically sound manner, based on and contributing to scientific research. On the basis of the findings, conservation measures deemed necessary will be implemented and education and awareness will be promoted to the largest and widest possible audience. Partnerships are also set up with other organizations, both locally and internationally.</p>
+                                <p><strong>2.</strong> It tries to achieve its goal by: conducting thorough data collection, actively contributing to the improvement of nesting and foraging areas of sea turtles, sharing obtained information with a wide audience and all other lawful means that can serve the purpose.</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="faq-category">
@@ -93,6 +108,19 @@ include 'includes/header.php';
                             <p>No prior experience is required. We provide comprehensive training covering all aspects of sea turtle conservation. A positive attitude and willingness to learn are what matter most.</p>
                         </div>
                     </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>If I want to volunteer with STCC while I'm on vacation, is that feasible?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Great question, and we appreciate your enthusiastic desire to help the turtles. The answer is: it depends.</p>
+                            <p>If you apply through our <a href="volunteer.php">volunteer portal</a> to become a volunteer, and can arrange your stay to include time for formal volunteer training, then YES!</p>
+                            <p>If there's not time in your schedule to become a trained volunteer, please watch our <a href="events.php">public calendar</a> for events that are open to anyone.</p>
+                            <p>Long term, we hope to create online training so you can study up on turtles before arriving, then complete a brief exam and a field experience to become a qualified volunteer.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="faq-category">
@@ -125,6 +153,19 @@ include 'includes/header.php';
                         </button>
                         <div class="faq-answer">
                             <p>Nesting season runs from approximately June through December. During this time, female turtles come ashore at night to lay their eggs. Eggs incubate for about 60 days before hatchlings emerge.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How many turtles live in the waters surrounding Curaçao?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Now you're thinking! This is a question with at least two potential answers, both of which demand rigorous demographic studies.</p>
+                            <p><strong>Possible answer:</strong> there are <em>x</em> many turtles across all age classes estimated to be in our local waters at <em>y</em> time of year (perhaps <em>xxx</em> Greens, <em>xx</em> Hawksbills, <em>xx</em> Loggerheads, and one meandering Leatherback during an average day in June).</p>
+                            <p><strong>Possible answer:</strong> based on regular research netting sessions, and a strong understanding of our re-capture rates, we can estimate that <em>x</em> juvenile Green turtles regularly forage in Boka <em>y</em>.</p>
+                            <p>We simply do not have sufficient data to currently share an accurate estimate in either of these cases, but with our planned PIT Tagging program utilizing standard CMR (Capture–Mark–Recapture) methods over the next decade, we plan to build an accurate understanding of both our resident and transient turtle populations. Understanding our demographics, and crossing that data with morphometric data and health assessments, will allow us to make informed conservation decisions on behalf of Curaçao's turtles and their habitat.</p>
                         </div>
                     </div>
                 </div>
