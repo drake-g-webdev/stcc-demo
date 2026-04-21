@@ -4629,8 +4629,41 @@ section {
 }
 
 .faq-item.open .faq-answer {
-    max-height: 1200px;
+    max-height: 2000px;
     padding: 15px 20px 20px;
+}
+
+.faq-species-list,
+.faq-tips-list {
+    list-style: none;
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+.faq-species-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-gray-light);
+}
+
+.faq-species-list li:last-child {
+    border-bottom: none;
+}
+
+.faq-tips-list li {
+    position: relative;
+    padding: 6px 0 6px 24px;
+    line-height: 1.6;
+}
+
+.faq-tips-list li::before {
+    content: "\f06c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: var(--color-teal);
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 0.9rem;
 }
 
 .faq-answer p {

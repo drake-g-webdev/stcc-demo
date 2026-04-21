@@ -26,7 +26,7 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Sea Turtle Conservation Curaçao (STCC) is a non-profit organization dedicated to protecting sea turtles and their habitat through rescue and rehabilitation, scientific research, and education. We operate on the island of Curaçao in the Caribbean.</p>
+                            <p>Sea Turtle Conservation Curaçao (STCC) is a non-profit foundation (a "Stichting" in Dutch) that is dedicated to the scientifically viable, data-driven conservation of Curaçao's marine turtles and their habitat.</p>
                         </div>
                     </div>
 
@@ -36,7 +36,9 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>STCC is funded through individual donations, corporate sponsorships, and grants. We are a verified partner of GlobalGiving. You can support us through <a href="donate.php">our donation page</a> via GlobalGiving, PayPal, or direct bank transfer.</p>
+                            <p>STCC is entirely funded by a mix of donations, grants, and government funds. The government of Curaçao, through various ministries and agencies like the Curaçao Tourist Board, helps with the rental expenses of our Rescue Center and is involved with other one-time projects and long-term support.</p>
+                            <p>Generous grants provide funding for everything from recurring expenses to scientific research programs and specialized equipment like PIT Tags, tagging equipment, and PIT Tag scanners. Private donations are critical to funding our daily operations, including staffing. Some donors have supported critical equipment, such as the surgical lighting system in our Rescue Center, legal services, and a growing library of sea turtle reference books.</p>
+                            <p>In addition to these sources of funding, we are grateful to the many businesses that generously support our efforts! Take a look at our <a href="our-allies.php">partners and supporters page</a>. We would love you to consider them when choosing with whom you conduct your business! Let them know that you appreciate their support of STCC.</p>
                         </div>
                     </div>
 
@@ -46,7 +48,10 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Our visitor center is located at Sambil Mall (Carrefour entrance) in Curaçao. Our fieldwork takes place across Curaçao's beaches and surrounding waters, including Klein Curaçao.</p>
+                            <p>Currently STCC has two physical locations on the island, but truly we reside in the hearts and minds of our volunteers and all the turtle-supportive citizens and residents in our communities, plus the thousands of turtle-loving tourists who visit our beautiful island.</p>
+                            <p>You can find us in the <strong>Sambil Mall</strong>, near the Carrefour entrance. In that space, always open when the mall is open, you can see educational displays, plus we host occasional events here.</p>
+                            <p>We also have a <strong>Rescue Center and educational facility in Boka Sami</strong>. This space is still under construction and not yet open to the public. Long-term, we plan to staff this space and have it open daily so the public can visit and learn about our research and conservation activities.</p>
+                            <p>Beyond our official facilities, it's not unusual for our staff and volunteers to be seen working elsewhere around the island to educate the public and promote the conservation of sea turtles.</p>
                         </div>
                     </div>
 
@@ -75,7 +80,7 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Fill out the application form on our <a href="volunteer.php">volunteer page</a>. All prospective volunteers must attend our training program. We train new volunteers from April through November.</p>
+                            <p>Sign up! Please fill out the application on our <a href="volunteer.php">volunteer page</a>. Several times each year we offer volunteer training courses. You must attend the full course series to become a volunteer, and to earn the privilege of purchasing and wearing our vivid Patrol Team shirts.</p>
                         </div>
                     </div>
 
@@ -85,7 +90,8 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>You must be at least 18 years old, able to communicate in English, hold a driver license B, and have your own transportation to volunteer sites. If you're not living in Curaçao, you'll also need to arrange your own accommodation.</p>
+                            <p>Be passionate about turtles, whether you are a local or visitor. Successfully complete the training program — and, in subsequent years, sit in on a refresher course.</p>
+                            <p>Some activities are strenuous and may require appropriate endurance tests. For example, to participate in a research netting session, you may have to prove your in-water stamina with a simple swim test.</p>
                         </div>
                     </div>
 
@@ -95,7 +101,8 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Volunteers participate in beach patrols, nest monitoring, rescue response, rehabilitation care, education outreach, and photo documentation. After completing training, you'll join field activities across Curaçao and Klein Curaçao.</p>
+                            <p>Almost everything! We have volunteers who patrol beaches, cleaning as they go, and reporting on nesting activities. Some educate the public, school students, and other target audiences during outreach programs. Volunteers rescue turtles during sargassum influxes and assist with rehabilitation efforts and releases. Qualified volunteers provide critical care and general care for turtles at the Rescue Center and assist with emergency rescues.</p>
+                            <p>But what many don't realize is that we have a need for volunteers who create social media posts, who photograph the turtles and turtle people, who manage finances, who write grant applications, who offer legal advice, who write protocols and thank-you notes — who do all the thousand tasks that allow a volunteer-based organization to thrive. We need you! We need your time and talent to help us care for Curaçao's marine turtles!</p>
                         </div>
                     </div>
 
@@ -105,7 +112,7 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>No prior experience is required. We provide comprehensive training covering all aspects of sea turtle conservation. A positive attitude and willingness to learn are what matter most.</p>
+                            <p>No. We will train you. You do need eighteen years of life experience — we only accept adult volunteers (with special exceptions for short-term student volunteers who arrive with programs like Broadreach).</p>
                         </div>
                     </div>
 
@@ -132,7 +139,12 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Three species are found in Curaçao's waters: the Green sea turtle (most common), the Hawksbill turtle (critically endangered), and the Loggerhead turtle. Occasionally, Leatherback turtles are also spotted.</p>
+                            <ul class="faq-species-list">
+                                <li><strong>Green Turtle</strong> — <em>Chelonia mydas</em></li>
+                                <li><strong>Loggerhead Turtle</strong> — <em>Caretta caretta</em></li>
+                                <li><strong>Hawksbill Turtle</strong> — <em>Eretmochelys imbricata</em></li>
+                                <li><strong>Leatherback Turtle</strong> (rarely) — <em>Dermochelys coriacea</em></li>
+                            </ul>
                         </div>
                     </div>
 
@@ -152,7 +164,7 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Nesting season runs from approximately June through December. During this time, female turtles come ashore at night to lay their eggs. Eggs incubate for about 60 days before hatchlings emerge.</p>
+                            <p>Generally, sea turtle nesting season on Curaçao is May through December — however, nature isn't always known to follow a strict calendar!</p>
                         </div>
                     </div>
 
@@ -179,7 +191,8 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Call our Sea Turtle Emergency Hotline immediately at <a href="tel:+59996647970">+5999 664 7970</a> (also available via WhatsApp). Do not try to push the turtle back into the water. Keep your distance and keep the area calm until help arrives.</p>
+                            <p>Please call <a href="tel:+59996647970"><strong>+5999 664 7970</strong></a>.</p>
+                            <p><strong>Do not touch the turtle.</strong></p>
                         </div>
                     </div>
 
@@ -189,7 +202,8 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Do not disturb the nest. Keep people and animals away from the area and call us at <a href="tel:+59996647970">+5999 664 7970</a>. Do not dig into the nest or attempt to move the eggs. Our team will come to assess and protect the site.</p>
+                            <p>Please call <a href="tel:+59996647970"><strong>+5999 664 7970</strong></a>.</p>
+                            <p>Please do not interfere with a hatching nest. You may remove any items that are blocking a path for hatchlings to safely reach the sea. Do not disturb any eggs or handle hatchlings.</p>
                         </div>
                     </div>
 
@@ -199,7 +213,15 @@ include 'includes/header.php';
                             <i class="fas fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Reduce plastic use, keep beaches clean, turn off beach lights during nesting season, report sea turtle sightings to STCC, support sustainable seafood choices, and spread awareness. You can also <a href="donate.php">donate</a> or <a href="volunteer.php">volunteer</a> with us.</p>
+                            <p>Please donate generously to STCC and other turtle research and conservation organizations in your community and on your travels.</p>
+                            <ul class="faq-tips-list">
+                                <li>Buy one reusable water bottle and skip the disposable plastics.</li>
+                                <li>Avoid disposable plastic shopping bags — they wind up in the ocean, look surprisingly like jellyfish, and are eaten by turtles. It's a great idea to keep a few reusable totes handy in your car!</li>
+                                <li>Never release a balloon into the air — they wind up in the ocean and choke turtles.</li>
+                                <li>Say no to the plastic straw! At home, use paper or reusable metal straws.</li>
+                                <li>Never chase, feed, or touch wild sea turtles — admire them from a distance while snorkeling or diving.</li>
+                                <li>Educate yourself — the more you learn about sea turtles, the more you'll want to focus a portion of your life on helping to save theirs.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
