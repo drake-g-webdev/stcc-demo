@@ -50,6 +50,7 @@ $pages = [
     ['rescue-rehabilitation', 'Rescue & Rehabilitation','', ''],
     ['education',             'Education',             '', ''],
     ['research',              'Research',              '', ''],
+    ['publications',          'Publications',          '', ''],
     ['events',                'Events',                '', ''],
     ['patrol-klein-curacao',  'Patrol Klein Curaçao',  '', ''],
     ['vacancies',             'Vacancies',             '', ''],
@@ -168,6 +169,7 @@ if (!$menu_exists) {
         'Rescue & Rehabilitation' => 'rescue-rehabilitation',
         'Education'               => 'education',
         'Research'                => 'research',
+        'Publications'            => 'publications',
     ];
     foreach ($work_children as $title => $slug) {
         $page = get_page_by_path($slug);
