@@ -47,6 +47,8 @@ $pages = [
     ['our-mission',           'Our Mission',           '', ''],
     ['our-allies',            'Partners & Supporters',            '', ''],
     ['committees',            'Committees',            '', ''],
+    ['faq',                   'FAQ',                   '', ''],
+    ['photography-guidelines','Photography Guidelines','', ''],
     ['rescue-rehabilitation', 'Rescue & Rehabilitation','', ''],
     ['education',             'Education',             '', ''],
     ['research',              'Research',              '', ''],
@@ -138,10 +140,12 @@ if (!$menu_exists) {
     ]);
 
     $about_children = [
-        'Our Team'              => 'our-team',
-        'Our Mission'           => 'our-mission',
-        'Partners & Supporters'            => 'our-allies',
-        'Committees'            => 'committees',
+        'Our Team'               => 'our-team',
+        'Our Mission'            => 'our-mission',
+        'Partners & Supporters'  => 'our-allies',
+        'Committees'             => 'committees',
+        'FAQ'                    => 'faq',
+        'Photography Guidelines' => 'photography-guidelines',
     ];
     foreach ($about_children as $title => $slug) {
         $page = get_page_by_path($slug);
