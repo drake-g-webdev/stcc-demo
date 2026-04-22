@@ -153,16 +153,4 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- For Media Professionals -->
-    <section class="cta-section">
-        <div class="container">
-            <h2>Working With STCC As A Media Professional?</h2>
-            <p>Professional photographers, videographers, journalists, and influencers must seek STCC Board permission before engaging in any image making at our events. Get in touch to discuss access.</p>
-            <div class="cta-buttons">
-                <a href="mailto:info@curacaoturtles.org" class="btn btn-primary">Request Access</a>
-                <a href="our-mission.php" class="btn btn-outline-white">Learn About STCC</a>
-            </div>
-        </div>
-    </section>
-
 <?php include 'includes/footer.php'; ?>
