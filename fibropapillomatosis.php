@@ -39,7 +39,7 @@ include 'includes/header.php';
                     <p>One leading theory suggests that green turtles feeding on contaminated seagrass may have weakened immune systems, making them more susceptible to the virus.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/icon-research.png" alt="FP Research">
+                    <img src="images/fp-research-content.jpg" alt="FP Research">
                 </div>
             </div>
         </div>
