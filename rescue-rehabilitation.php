@@ -34,7 +34,7 @@ include 'includes/header.php';
                     <p>Every rescued turtle receives immediate assessment and appropriate care, whether that means on-site first aid, transport to our rehabilitation facilities, or coordination with veterinary specialists.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/icon-rescue.png" alt="Sea turtle rescue">
+                    <img src="images/rescue-content.jpg" alt="Sea turtle rescue">
                 </div>
             </div>
         </div>

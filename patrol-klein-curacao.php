@@ -22,7 +22,7 @@ include 'includes/header.php';
                     <p>Our patrols help monitor nesting activity, protect nests from disturbance, and collect valuable data for our research programs. It's also a unique opportunity to experience this beautiful, remote island.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/hero-turtle.jpg" alt="Klein Curaçao beach">
+                    <img src="images/klein-curacao.jpg" alt="Klein Curaçao beach">
                 </div>
             </div>
         </div>
