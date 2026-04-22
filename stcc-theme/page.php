@@ -7,7 +7,8 @@
 get_header();
 ?>
 
-    <section class="page-header">
+    <?php $page_slug = get_post_field('post_name', get_post()); ?>
+    <section class="page-header page-header-<?php echo esc_attr($page_slug); ?>">
         <div class="container">
             <h1><?php the_title(); ?></h1>
         </div>
