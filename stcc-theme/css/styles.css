@@ -2255,10 +2255,28 @@ section {
     }
 }
 
-@media (max-width: 768px) {
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
+/* Tighten the desktop nav at narrower widths before the hamburger kicks in */
+@media (max-width: 1200px) and (min-width: 1025px) {
+    .nav-menu {
+        gap: 16px;
+    }
 
+    .nav-menu > li > a {
+        font-size: 0.92rem;
+    }
+
+    .header-buttons {
+        gap: 8px;
+    }
+
+    .header-buttons .btn {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Switch to hamburger menu at tablet widths to prevent nav/buttons from jumbling */
+@media (max-width: 1024px) {
     .main-nav {
         display: none;
     }
@@ -2270,6 +2288,11 @@ section {
     .header-buttons {
         display: none;
     }
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
 
     .hero-text h1 {
         font-size: 2.2rem;
