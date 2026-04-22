@@ -22,7 +22,7 @@ include 'includes/header.php';
                     <p>We work tirelessly to ensure that the sea turtles of Curaçao are safe and healthy, responding to emergencies, caring for injured animals, and conducting vital research to better understand and protect these magnificent creatures.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/turtle-underwater.jpg" alt="Sea turtle in Curaçao waters">
+                    <img src="images/our-mission-content.jpg" alt="STCC team protecting sea turtles in Curaçao">
                 </div>
             </div>
         </div>

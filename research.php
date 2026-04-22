@@ -22,7 +22,7 @@ include 'includes/header.php';
                     <p>We collect data through beach patrols, in-water surveys, photo-identification, and monitoring of rescued and rehabilitated turtles.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/turtle-underwater.jpg" alt="Sea turtle research">
+                    <img src="images/research-content.jpg" alt="STCC field research in action">
                 </div>
             </div>
         </div>
