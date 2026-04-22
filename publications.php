@@ -30,44 +30,16 @@ include 'includes/header.php';
             </div>
             <div class="publications-list">
 
-                <!-- Example publication (placeholder) -->
                 <div class="publication-item">
                     <div class="publication-year">2026</div>
                     <div class="publication-details">
-                        <h3 class="publication-title">Publication Title Goes Here</h3>
-                        <p class="publication-authors">Author Name, Author Name, Author Name</p>
-                        <p class="publication-journal"><em>Journal Name</em>, Vol. X, Issue Y, Pages Z–Z</p>
-                        <p class="publication-abstract">A brief abstract or summary of the publication will appear here once we add the real documents. This is a placeholder entry showing how each publication will be presented on the page.</p>
+                        <h3 class="publication-title">Spatial Differences in Copper and Lead Levels in Seagrasses and Seaweeds from Curaçaoan Bays</h3>
+                        <p class="publication-authors">Valenzuela, E., Bilimoria, A., Ruggeri, E., Vitales, I., Penesso, G., O'Pella, J., Van Veghel, I., Vreugdenhil, A., Ashley, D. M., Tripepi, M., &amp; Ashley, J. T. F.</p>
+                        <p class="publication-journal"><em>Caribbean Journal of Science</em>, Vol. 56, Issue 1, Pages 207–223 (April 9, 2026)</p>
+                        <p class="publication-abstract">This study employed seagrasses and seaweeds as bioindicators to examine copper and lead contamination across five Curaçaoan bay sites with varying land-use patterns. Small but statistically significant differences in metal concentrations were observed between sites: the remote Awa di Oospunt showed copper and lead concentrations of 2.38 and 0.60 ng/g respectively, while urbanized Caracas Bay measured 5.86 and 2.83 ng/g. Findings suggest that wastewater and industrial discharges likely drive contamination patterns in the island's nearshore ecosystems — with direct implications for sea turtle foraging habitats.</p>
                         <div class="publication-actions">
-                            <a href="#" class="btn btn-outline btn-small"><i class="fas fa-file-pdf"></i> Download PDF</a>
-                            <a href="#" class="btn btn-outline btn-small" target="_blank"><i class="fas fa-external-link-alt"></i> View on Journal</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication-item">
-                    <div class="publication-year">2025</div>
-                    <div class="publication-details">
-                        <h3 class="publication-title">Another Publication Title</h3>
-                        <p class="publication-authors">Author Name, Author Name</p>
-                        <p class="publication-journal"><em>Journal Name</em>, Vol. X, Pages Z–Z</p>
-                        <p class="publication-abstract">Placeholder abstract for another publication entry. Real publication details, DOI links, and PDF downloads will be added here.</p>
-                        <div class="publication-actions">
-                            <a href="#" class="btn btn-outline btn-small"><i class="fas fa-file-pdf"></i> Download PDF</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="publication-item">
-                    <div class="publication-year">2024</div>
-                    <div class="publication-details">
-                        <h3 class="publication-title">An Earlier Publication Example</h3>
-                        <p class="publication-authors">Author Name, et al.</p>
-                        <p class="publication-journal"><em>Journal Name</em>, Vol. X, Pages Z–Z</p>
-                        <p class="publication-abstract">Another placeholder entry. Publications will be sorted by year with the most recent first.</p>
-                        <div class="publication-actions">
-                            <a href="#" class="btn btn-outline btn-small"><i class="fas fa-file-pdf"></i> Download PDF</a>
-                            <a href="#" class="btn btn-outline btn-small" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            <a href="publications-pdfs/Valenzuela-et-al-2026-Cu-Pb-Curacao-bays.pdf" target="_blank" class="btn btn-outline btn-small"><i class="fas fa-file-pdf"></i> Download PDF</a>
+                            <a href="https://doi.org/10.18475/cjos.v56i1.a18" target="_blank" class="btn btn-outline btn-small"><i class="fas fa-external-link-alt"></i> View on Journal</a>
                         </div>
                     </div>
                 </div>
