@@ -78,13 +78,30 @@ get_header();
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="<?php echo stcc_image_url('turtle-underwater.jpg'); ?>" alt="Sea turtle swimming underwater">
+                    <img src="<?php echo stcc_image_url('index-about.jpg'); ?>" alt="Sea turtles in Curaçao's waters">
                 </div>
                 <div class="about-content">
                     <h2>About Sea Turtle Conservation Curaçao</h2>
                     <p>Sea Turtle Conservation Curaçao (STCC) is a dedicated non-profit organization working tirelessly to protect the sea turtles that call the waters around Curaçao home.</p>
                     <p>Our team of passionate volunteers and experts work together to rescue injured turtles, conduct vital research, and spread awareness about the importance of marine conservation.</p>
                     <a href="<?php echo home_url('/our-mission/'); ?>" class="btn btn-primary">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- In The Field Section -->
+    <section class="content-section bg-light">
+        <div class="container">
+            <div class="content-grid reverse">
+                <div class="content-text">
+                    <h2>Conservation In Action</h2>
+                    <p>From early-morning beach patrols to in-water research sessions and emergency rescues, our volunteers and staff are out in the field across Curaçao and Klein Curaçao every week.</p>
+                    <p>Every patrol, every measurement, every release contributes to the long-term science behind protecting Curaçao's sea turtles.</p>
+                    <a href="<?php echo home_url('/volunteer/'); ?>" class="btn btn-outline">Join the Team</a>
+                </div>
+                <div class="content-image">
+                    <img src="<?php echo stcc_image_url('index-feature.jpg'); ?>" alt="STCC volunteers and staff in the field">
                 </div>
             </div>
         </div>
