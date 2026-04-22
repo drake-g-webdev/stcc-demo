@@ -2379,6 +2379,13 @@ section {
     color: var(--color-white);
 }
 
+.page-header-volunteer {
+    background:
+        linear-gradient(135deg, rgba(5, 45, 103, 0.45) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url('../images/volunteer-hero.jpg') center center/cover no-repeat;
+    padding: 140px 0;
+}
+
 .page-header h1 {
     color: var(--color-white);
     margin-bottom: 10px;

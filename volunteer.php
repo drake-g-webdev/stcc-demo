@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
     <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header page-header-volunteer">
         <div class="container">
             <h1>Become a Volunteer</h1>
             <p>Join our team and make a real difference for sea turtles</p>
