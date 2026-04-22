@@ -44,6 +44,20 @@ include 'includes/header.php';
                     </div>
                 </div>
 
+                <div class="publication-item">
+                    <div class="publication-year">2025</div>
+                    <div class="publication-details">
+                        <h3 class="publication-title">First Report of Fibropapillomatosis and Critical Habitat Use in Green Sea Turtles in Curaçao</h3>
+                        <p class="publication-authors">Tripepi, M., van Veghel, I. J. R., Vreugdenhil, A. D., &amp; Brunelli, E.</p>
+                        <p class="publication-journal"><em>The European Zoological Journal</em>, Vol. 92, Issue 1, Pages 925–934 (December 31, 2025)</p>
+                        <p class="publication-abstract">Fibropapillomatosis, a disease affecting green sea turtles (<em>Chelonia mydas</em>), has been documented in many regions of the world, including the Caribbean, but has not been scientifically reported in Curaçao until now. This study utilized VHF telemetry in Caracas Bay, Curaçao, to track green sea turtles — both healthy and affected by fibropapillomatosis — with the objective of ascertaining their foraging locations. VHF telemetry proved to be a pivotal method for assessing habitat use in areas characterized by limited visibility and high boat traffic. The results demonstrate the significance of the marina in Caracas Bay as a green sea turtle feeding ground and lay the groundwork for future studies and conservation initiatives essential to understanding potential triggers for fibropapillomatosis in this species, particularly in understudied regions like the Leeward Antilles. This initial report highlights the pressing need for targeted conservation strategies and long-term monitoring to assess environmental stressors, disease dynamics, and their potential associations with anthropogenic impacts in critical sea turtle habitats.</p>
+                        <div class="publication-actions">
+                            <a href="publications-pdfs/Tripepi-et-al-2025-FP-green-turtles-Curacao.pdf" target="_blank" class="btn btn-outline btn-small"><i class="fas fa-file-pdf"></i> Download PDF</a>
+                            <a href="https://doi.org/10.1080/24750263.2025.2539835" target="_blank" class="btn btn-outline btn-small"><i class="fas fa-external-link-alt"></i> View on Journal</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
