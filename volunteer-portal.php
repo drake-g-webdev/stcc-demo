@@ -33,6 +33,10 @@ include 'includes/header.php';
                     <i class="fas fa-book"></i>
                     <span>Conduct Guidelines</span>
                 </a>
+                <a href="#protocols" class="quicklink-card">
+                    <i class="fas fa-file-signature"></i>
+                    <span>Protocols & Field Cards</span>
+                </a>
                 <a href="#nest-registration" class="quicklink-card">
                     <i class="fas fa-clipboard-list"></i>
                     <span>Nest Registration</span>
@@ -87,8 +91,37 @@ include 'includes/header.php';
         </div>
     </section>
 
+    <!-- Protocols & Field Cards Section -->
+    <section id="protocols" class="portal-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-file-signature"></i> Protocols &amp; Field Cards</h2>
+                <p>In-depth, volunteer-specific operational protocols and field reference cards</p>
+            </div>
+
+            <div class="protocols-placeholder">
+                <div class="placeholder-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Coming Soon</h3>
+                <p>STCC is currently revising and expanding our volunteer protocols and field cards. This section will become the central repository for all volunteer-facing operational documents as they are finalized over the coming year.</p>
+                <p>Expected content includes:</p>
+                <ul class="placeholder-list">
+                    <li><i class="fas fa-clipboard-check"></i> In-water research and rescue protocols</li>
+                    <li><i class="fas fa-binoculars"></i> Beach patrol procedures and reporting</li>
+                    <li><i class="fas fa-hospital"></i> Rehabilitation and medical care protocols</li>
+                    <li><i class="fas fa-ruler-combined"></i> Triangulation and measurement field cards</li>
+                    <li><i class="fas fa-tags"></i> PIT tagging and CMR methodology</li>
+                    <li><i class="fas fa-shield-alt"></i> Safety and PPE standards</li>
+                    <li><i class="fas fa-camera"></i> Volunteer-specific photography field rules (see the public <a href="photography-guidelines.php">Photography Guidelines</a> for the full policy)</li>
+                </ul>
+                <p class="placeholder-note"><em>Note: Protocols are kept behind the volunteer login while they are under active revision. Do not share external copies until they are finalized and approved for public release.</em></p>
+            </div>
+        </div>
+    </section>
+
     <!-- Guidelines Section -->
-    <section id="guidelines" class="portal-section bg-light">
+    <section id="guidelines" class="portal-section">
         <div class="container">
             <div class="section-header">
                 <h2><i class="fas fa-book"></i> Guidelines of Volunteer Conduct</h2>
