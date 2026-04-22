@@ -76,7 +76,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="content-image">
-                    <img src="images/icon-research.png" alt="Scientific Research">
+                    <img src="images/publications-content.jpg" alt="Scientific Research">
                 </div>
             </div>
         </div>
