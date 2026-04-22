@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
     <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header page-header-internships">
         <div class="container">
             <h1>Internships</h1>
             <p>Gain hands-on experience in marine conservation</p>
