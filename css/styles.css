@@ -276,6 +276,7 @@ ul {
 
 .logo {
     display: block;
+    flex-shrink: 0;
     transition: transform 0.3s ease;
 }
 
@@ -286,6 +287,9 @@ ul {
 .logo img {
     height: 60px;
     width: auto;
+    max-width: none;
+    object-fit: contain;
+    display: block;
 }
 
 .main-nav {
