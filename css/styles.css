@@ -1579,8 +1579,8 @@ section {
 /* Portal Header */
 .portal-header {
     background:
-        linear-gradient(135deg, rgba(5, 45, 103, 0.75) 0%, rgba(45, 125, 158, 0.65) 100%),
-        url('../images/team/portalhero.jpg') left center/cover no-repeat;
+        linear-gradient(135deg, rgba(5, 45, 103, 0.35) 0%, rgba(0, 0, 0, 0.45) 100%),
+        url('../images/volunteer-portal-hero.jpg') center center/cover no-repeat;
     color: var(--color-white);
     padding: 120px 0;
 }
