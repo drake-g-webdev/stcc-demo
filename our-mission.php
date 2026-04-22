@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
     <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header page-header-our-mission">
         <div class="container">
             <h1>Our Mission</h1>
             <p>Protecting sea turtles and their habitat through research, conservation, and education</p>
