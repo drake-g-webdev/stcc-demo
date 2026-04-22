@@ -2400,6 +2400,13 @@ section {
     padding: 140px 0;
 }
 
+.page-header-research {
+    background:
+        linear-gradient(135deg, rgba(5, 45, 103, 0.45) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url('../images/research-hero.jpg') center center/cover no-repeat;
+    padding: 140px 0;
+}
+
 .page-header h1 {
     color: var(--color-white);
     margin-bottom: 10px;

@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
     <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header page-header-research">
         <div class="container">
             <h1>Research</h1>
             <p>Scientific research to better understand and protect sea turtles</p>
