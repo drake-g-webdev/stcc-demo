@@ -58,7 +58,7 @@ include 'includes/header.php';
                     <p>Our goal is always to release recovered turtles back into the wild when they are fully healed.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/turtle-underwater.jpg" alt="Sea turtle rehabilitation">
+                    <img src="images/rescue-rehab-content.jpg" alt="Sea turtle rehabilitation">
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ include 'includes/header.php';
                     <p>FP is a viral disease that primarily affects sea turtles, particularly the green turtle (Chelonia mydas). It is characterized by the development of numerous benign tumors, known as fibropapillomas, on the turtles' soft tissues. These tumors can grow both internally and externally, often affecting vital organs, such as the eyes, mouth, flippers, and internal organs.</p>
                 </div>
                 <div class="content-image">
-                    <img src="images/turtle-underwater.jpg" alt="Sea turtle in Curaçao waters">
+                    <img src="images/fp-content.jpg" alt="Green sea turtle showing signs of fibropapillomatosis">
                 </div>
             </div>
         </div>
