@@ -93,7 +93,7 @@ get_header();
     <!-- In The Field Section -->
     <section class="content-section bg-light">
         <div class="container">
-            <div class="content-grid reverse">
+            <div class="content-grid">
                 <div class="content-text">
                     <h2>Conservation In Action</h2>
                     <p>From early-morning beach patrols to in-water research sessions and emergency rescues, our volunteers and staff are out in the field across Curaçao and Klein Curaçao every week.</p>
