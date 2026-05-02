@@ -2277,7 +2277,7 @@ section {
 
 /* Switch to hamburger menu at tablet widths to prevent nav/buttons from jumbling */
 @media (max-width: 1024px) {
-    .main-nav {
+    .nav-menu {
         display: none;
     }
 
